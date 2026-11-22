@@ -1,0 +1,41 @@
+{
+  "fontes": {
+    "cobasi": {
+      "nome": "Cobasi",
+      "tipo": "vtex",
+      "url": "https://www.cobasi.com.br",
+      "buscas": [
+        "formula natural gatos",
+        "royal canin gatos",
+        "cansei de ser gato",
+        "viva verde",
+        "catbio",
+        "areia biodegradavel gatos",
+        "sheba",
+        "petisco gatos"
+      ]
+    },
+    "vivaverde": {
+      "nome": "Viva Verde (loja da marca)",
+      "tipo": "vtex",
+      "url": "https://www.vivaverde.com.br",
+      "buscas": [
+        ""
+      ],
+      "so_gatos": false,
+      "categoria_padrao": "areia"
+    },
+    "catbio": {
+      "nome": "Catbio (loja da marca)",
+      "tipo": "shopify",
+      "url": "https://www.catbio.com.br"
+    }
+  },
+  "links_busca": {
+    "Petz": "https://www.petz.com.br/busca?q={q}",
+    "Petlove": "https://www.petlove.com.br/busca?q={q}",
+    "Amazon": "https://www.amazon.com.br/s?k={q}",
+    "Mercado Livre": "https://lista.mercadolivre.com.br/{q}",
+    "Cansei de Ser Gato": "https://www.canseidesergato.com.br/search?q={q}"
+  }
+}

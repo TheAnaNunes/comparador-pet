@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comparador de preços para gatos</title>
+<style>
+  :root { --fundo:#fffaf3; --cartao:#ffffff; --texto:#1f1a14; --suave:#5c5247; --borda:#d9cfc2;
+          --destaque:#0b6e4f; --destaque-fundo:#e3f4ec; --acento:#b4460c; --foco:#1d4ed8; }
+  * { box-sizing:border-box; }
+  html { font-size:112.5%; -webkit-text-size-adjust:100%; }
+  body { margin:0; background:var(--fundo); color:var(--texto); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.45; }
+  main { max-width:44rem; margin:0 auto; padding:1rem; }
+  h1 { font-size:1.6rem; margin:.25rem 0; }
+  .sub { color:var(--suave); margin:0 0 1rem; }
+  label { font-weight:600; display:block; margin-bottom:.35rem; }
+  input[type=search], select { width:100%; font-size:1rem; padding:.75rem; border:2px solid var(--borda); border-radius:.6rem; background:#fff; color:var(--texto); }
+  .linha { display:flex; flex-wrap:wrap; gap:.6rem; margin:.8rem 0; }
+  .chip { font-size:1rem; min-height:2.9rem; padding:.5rem 1rem; border-radius:2rem; border:2px solid var(--borda); background:#fff; color:var(--texto); cursor:pointer; }
+  .chip[aria-pressed=true] { background:var(--texto); color:#fff; border-color:var(--texto); }
+  .check { display:flex; align-items:center; gap:.6rem; font-weight:600; min-height:2.9rem; }
+  .check input { width:1.6rem; height:1.6rem; flex:none; }
+  :focus-visible { outline:3px solid var(--foco); outline-offset:2px; }
+  .total { color:var(--suave); margin:.5rem 0 1rem; }
+  .cartao { background:var(--cartao); border:1px solid var(--borda); border-radius:1rem; padding:1rem; margin-bottom:1rem; }
+  .topo { display:flex; gap:.9rem; align-items:flex-start; }
+  .topo { flex-wrap:wrap; }
+  .topo > div { min-width:0; flex:1 1 9rem; }
+  .topo img { width:5.5rem; height:5.5rem; object-fit:contain; flex:none; background:#fff; border-radius:.5rem; }
+  .nome { font-size:1.08rem; font-weight:700; margin:0; overflow-wrap:anywhere; }
+  .marca { color:var(--suave); margin:.2rem 0 0; }
+  .melhor { margin:.9rem 0 .4rem; padding:.8rem; background:var(--destaque-fundo); border-radius:.7rem; }
+  
+  .precos { display:flex; flex-wrap:wrap; align-items:baseline; gap:.2rem .5rem; }
+  .precos .de, .precos .off { margin-left:0; }
+  .preco { font-size:1.7rem; font-weight:800; color:var(--destaque); }
+  .de { text-decoration:line-through; color:var(--suave); margin-left:.4rem; }
+  .off { display:inline-block; background:var(--acento); color:#fff; font-weight:700; border-radius:.4rem; padding:.05rem .45rem; margin-left:.4rem; }
+  .info { color:var(--suave); margin:.25rem 0 0; }
+  .alerta { color:var(--destaque); font-weight:700; margin:.3rem 0 0; }
+  ul.ofertas { list-style:none; padding:0; margin:.4rem 0 0; }
+  ul.ofertas li { display:flex; flex-wrap:wrap; justify-content:space-between; gap:.3rem .8rem; padding:.6rem 0; border-top:1px solid var(--borda); }
+  a.botao { display:inline-flex; align-items:center; justify-content:center; min-height:2.9rem; padding:.55rem 1.1rem; border-radius:.6rem; background:var(--destaque); color:#fff; font-weight:700; text-decoration:none; margin-top:.6rem; }
+  a { color:#0b4f8a; }
+  details { margin-top:.7rem; }
+  summary { cursor:pointer; font-weight:600; min-height:2.6rem; padding:.4rem 0; color:#0b4f8a; }
+  .links { display:flex; flex-wrap:wrap; gap:.5rem 1rem; margin-top:.4rem; }
+  .links a { padding:.4rem 0; }
+  #mais { width:100%; font-size:1.05rem; min-height:3.2rem; border-radius:.7rem; border:2px solid var(--texto); background:#fff; cursor:pointer; font-weight:700; }
+  .aviso { background:#fff; border:1px dashed var(--borda); border-radius:.8rem; padding:.8rem 1rem; color:var(--suave); margin-top:1.5rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🐱 Preços para os gatos</h1>
+  <p class="sub" id="atualizado"></p>
+
+  <label for="busca">Procurar produto</label>
+  <input type="search" id="busca" placeholder="Ex.: areia viva verde, sheba, renal">
+
+  <div class="linha" role="group" aria-label="Tipo de produto" id="cats"></div>
+
+  <label class="check"><input type="checkbox" id="minhas" checked> Só as marcas que eu compro</label>
+  <label class="check"><input type="checkbox" id="promo"> Só o que está em promoção</label>
+
+  <label for="ordem" style="margin-top:.6rem">Ordenar por</label>
+  <select id="ordem">
+    <option value="kg">Menor preço por kg</option>
+    <option value="preco">Menor preço</option>
+    <option value="off">Maior desconto</option>
+  </select>
+
+  <p class="total" id="total" aria-live="polite"></p>
+  <div id="lista"></div>
+  <button id="mais" hidden>Mostrar mais produtos</button>
+
+  <p class="aviso">Preços consultados na Cobasi e nas lojas das marcas Viva Verde e Catbio. Frete não incluso.
+  Na Cobasi, a Compra Programada costuma dar desconto extra. Para Petz, Petlove, Amazon e Mercado Livre, toque em "Procurar na Petz, Petlove, Amazon…" em cada produto.</p>
+</main>
+<script>
+const D = /*DADOS*/null;
+const brl = v => v.toLocaleString("pt-BR", {style:"currency", currency:"BRL"});
+const tira = s => (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+const CATS = ["Todos","Ração seca","Ração úmida","Areia","Petisco","Outros"];
+let cat = "Todos", mostrar = 30;
+const $ = id => document.getElementById(id);
+
+$("atualizado").textContent = "Atualizado em " + D.atualizado.split(" ")[0].split("-").reverse().join("/") + " às " + D.atualizado.split(" ")[1];
+CATS.forEach(c => {
+  const b = document.createElement("button");
+  b.className = "chip"; b.textContent = c; b.setAttribute("aria-pressed", c === cat);
+  b.onclick = () => { cat = c; document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x.textContent === c)); mostrar = 30; render(); };
+  $("cats").appendChild(b);
+});
+
+D.produtos.forEach(p => {
+  const ok = p.o.filter(o => o.d); const b = (ok[0] || p.o[0]);
+  p.melhor = b; p.pkg = p.kg ? b.p / p.kg : null;
+  p.off = b.de > b.p ? Math.round((1 - b.p / b.de) * 100) : 0;
+  p.txt = tira(p.n + " " + p.m + " " + p.c);
+});
+
+function porKg(p) {
+  if (!p.kg) return "";
+  return p.kg < 1 ? brl(p.melhor.p / p.kg / 10) + " a cada 100 g" : brl(p.melhor.p / p.kg) + " por kg";
+}
+
+function cartao(p) {
+  const b = p.melhor, q = encodeURIComponent(p.n.replace(/\s+\d.*$/, "") || p.n);
+  const outras = p.o.slice(1).map(o => `<li><span>${o.l}${o.d ? "" : " (esgotado)"}</span><span><strong>${brl(o.p)}</strong> · <a href="${o.u}" target="_blank" rel="noopener">abrir</a></span></li>`).join("");
+  const links = Object.entries(D.busca).map(([n,u]) => `<a href="${u.replace("{q}", q)}" target="_blank" rel="noopener">${n}</a>`).join("");
+  let hist = "";
+  if (p.mv != null) hist = p.mv >= b.p - 0.009 ? `<p class="alerta">✔ Menor preço desde que comecei a acompanhar</p>` : `<p class="info">Menor preço já visto: ${brl(p.mv)} em ${p.mvd.split("-").reverse().join("/")}</p>`;
+  return `<article class="cartao">
+    <div class="topo">${p.img ? `<img src="${p.img}" alt="" loading="lazy">` : ""}
+      <div><p class="nome">${p.n}</p><p class="marca">${p.m} · ${p.c}</p></div></div>
+    <div class="melhor">
+      <div class="precos"><span class="preco">${brl(b.p)}</span>${p.off ? `<span class="de">${brl(b.de)}</span><span class="off">-${p.off}%</span>` : ""}</div>
+      <p class="info">Mais barato em <strong>${b.l}</strong>${b.d ? "" : " (esgotado)"}${p.kg ? " · " + porKg(p) : ""}</p>
+      ${hist}
+      <a class="botao" href="${b.u}" target="_blank" rel="noopener">Ver na ${b.l.split(" (")[0]}</a>
+    </div>
+    ${outras ? `<p class="info" style="margin-top:.6rem"><strong>Outras lojas</strong></p><ul class="ofertas">${outras}</ul>` : ""}
+    <details><summary>Procurar na Petz, Petlove, Amazon…</summary><div class="links">${links}</div></details>
+  </article>`;
+}
+
+function render() {
+  const q = tira($("busca").value).split(/\s+/).filter(Boolean);
+  const minhas = $("minhas").checked, promo = $("promo").checked, ordem = $("ordem").value;
+  let l = D.produtos.filter(p => (cat === "Todos" || p.c === cat) && (!minhas || p.minha) && (!promo || p.off > 0) && q.every(w => p.txt.includes(w)));
+  const inf = Number.POSITIVE_INFINITY;
+  l.sort(ordem === "preco" ? (a,b) => a.melhor.p - b.melhor.p : ordem === "off" ? (a,b) => b.off - a.off : (a,b) => (a.pkg ?? inf) - (b.pkg ?? inf));
+  $("total").textContent = l.length === 1 ? "1 produto encontrado" : l.length + " produtos encontrados";
+  $("lista").innerHTML = l.slice(0, mostrar).map(cartao).join("") || "<p>Nenhum produto com esses filtros.</p>";
+  $("mais").hidden = l.length <= mostrar;
+}
+["busca","minhas","promo","ordem"].forEach(id => $(id).addEventListener("input", () => { mostrar = 30; render(); }));
+$("mais").onclick = () => { mostrar += 30; render(); };
+render();
+</script>
+</body>
+</html>
