@@ -53,8 +53,9 @@ def main():
     html = html.replace("/*DADOS*/null", json.dumps(
         {"atualizado": cat["atualizado_em"], "produtos": produtos, "busca": cat["links_busca"]},
         ensure_ascii=False, separators=(",", ":")))
-    (RAIZ / "site").mkdir(exist_ok=True)
-    (RAIZ / "site" / "index.html").write_text(html, encoding="utf-8")
+    for pasta in ("site", "docs"):  # docs/ é o que o GitHub Pages publica
+        (RAIZ / pasta).mkdir(exist_ok=True)
+        (RAIZ / pasta / "index.html").write_text(html, encoding="utf-8")
     print(f"site/index.html gerado com {len(produtos)} produtos")
 
 

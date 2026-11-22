@@ -1,6 +1,6 @@
 # Comparador de preços para gatos (uso pessoal)
 
-Dê dois cliques em `atualizar.bat`: ele busca os preços de novo e abre o catálogo no navegador.
+Dê dois cliques em `atualizar.bat`: ele busca os preços de novo, atualiza o site público (https://theananunes.github.io/comparador-pet/) e abre o catálogo no navegador.
 
 - `coletar.py` busca os preços nas lojas que permitem consulta automática (Cobasi, Viva Verde, Catbio) e guarda em `dados/`.
 - `gerar_site.py` monta `site/index.html` a partir de `modelo.html`.
