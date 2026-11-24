@@ -5,72 +5,98 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Comparador de preços para gatos</title>
 <style>
-  :root { --fundo:#fffaf3; --cartao:#ffffff; --texto:#1f1a14; --suave:#5c5247; --borda:#d9cfc2;
-          --destaque:#0b6e4f; --destaque-fundo:#e3f4ec; --acento:#b4460c; --foco:#1d4ed8; }
+  :root {
+    --fundo:#f6f2fb; --fundo2:#efe8f8; --cartao:#ffffff; --texto:#2a2140; --suave:#5b5072; --borda:#ddd3ec;
+    --roxo:#5a3a96; --roxo-escuro:#3f2770; --roxo-claro:#ece4f8; --lilas:#c9b6ea;
+    --preco:#4a2d84; --off:#9b2c6e; --ok:#2f6b4f; --foco:#e08a00;
+  }
   * { box-sizing:border-box; }
   html { font-size:112.5%; -webkit-text-size-adjust:100%; }
-  body { margin:0; background:var(--fundo); color:var(--texto); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.45; }
-  main { max-width:44rem; margin:0 auto; padding:1rem; }
-  h1 { font-size:1.6rem; margin:.25rem 0; }
-  .sub { color:var(--suave); margin:0 0 1rem; }
-  label { font-weight:600; display:block; margin-bottom:.35rem; }
-  input[type=search], select { width:100%; font-size:1rem; padding:.75rem; border:2px solid var(--borda); border-radius:.6rem; background:#fff; color:var(--texto); }
-  .linha { display:flex; flex-wrap:wrap; gap:.6rem; margin:.8rem 0; }
-  .chip { font-size:1rem; min-height:2.9rem; padding:.5rem 1rem; border-radius:2rem; border:2px solid var(--borda); background:#fff; color:var(--texto); cursor:pointer; }
-  .chip[aria-pressed=true] { background:var(--texto); color:#fff; border-color:var(--texto); }
-  .check { display:flex; align-items:center; gap:.6rem; font-weight:600; min-height:2.9rem; }
-  .check input { width:1.6rem; height:1.6rem; flex:none; }
+  body { margin:0; background:linear-gradient(180deg,var(--fundo2) 0, var(--fundo) 18rem); color:var(--texto);
+         font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; line-height:1.5; }
+  main { max-width:44rem; margin:0 auto; padding:1.2rem 1rem 3rem; }
+  header { display:flex; align-items:center; gap:.8rem; flex-wrap:wrap; margin-bottom:.4rem; }
+  .logo { width:3.2rem; height:3.2rem; border-radius:1rem; background:var(--roxo); color:#fff; display:grid; place-items:center; font-size:1.7rem; flex:none; }
+  h1 { font-size:1.55rem; margin:0; color:var(--roxo-escuro); line-height:1.2; }
+  .sub { color:var(--suave); margin:.2rem 0 1.2rem; }
+  .painel { background:var(--cartao); border:1px solid var(--borda); border-radius:1.3rem; padding:1rem; box-shadow:0 .3rem 1.2rem rgba(74,45,132,.07); margin-bottom:1.2rem; }
+  .titulo-filtro { font-weight:700; color:var(--roxo-escuro); margin:1rem 0 .5rem; display:block; }
+  .titulo-filtro:first-child { margin-top:0; }
+  .busca { position:relative; }
+  .busca span { position:absolute; left:.9rem; top:50%; transform:translateY(-50%); font-size:1.1rem; pointer-events:none; }
+  input[type=search] { width:100%; font-size:1rem; padding:.85rem .9rem .85rem 2.7rem; border:2px solid var(--borda); border-radius:1rem; background:var(--fundo); color:var(--texto); }
+  input[type=search]:focus { border-color:var(--roxo); background:#fff; outline:none; box-shadow:0 0 0 4px var(--roxo-claro); }
+  .linha { display:flex; flex-wrap:wrap; gap:.55rem; }
+  .chip { font:inherit; font-size:1rem; min-height:2.9rem; padding:.45rem 1rem; border-radius:2rem; border:2px solid var(--borda); background:#fff; color:var(--texto); cursor:pointer; display:inline-flex; align-items:center; gap:.4rem; transition:background .15s, border-color .15s; }
+  @media (hover:hover) { .chip:hover { border-color:var(--lilas); background:var(--roxo-claro); } }
+  .chip[aria-pressed=true], .chip[aria-pressed=true]:hover { background:var(--roxo); border-color:var(--roxo); color:#fff; font-weight:700; }
+  .chip.pequeno { min-height:2.6rem; font-size:.95rem; padding:.35rem .9rem; }
+  .interruptor { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:.7rem 0; border-top:1px solid var(--borda); cursor:pointer; font-weight:600; }
+  .interruptor:first-of-type { border-top:none; }
+  .interruptor input { position:absolute; opacity:0; width:1px; height:1px; }
+  .trilho { flex:none; width:3.4rem; height:2rem; border-radius:2rem; background:#cfc6dd; position:relative; transition:background .2s; }
+  .trilho::after { content:""; position:absolute; top:.22rem; left:.25rem; width:1.56rem; height:1.56rem; border-radius:50%; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.25); transition:transform .2s; }
+  .interruptor input:checked + .trilho { background:var(--roxo); }
+  .interruptor input:checked + .trilho::after { transform:translateX(1.36rem); }
+  .interruptor input:focus-visible + .trilho { outline:3px solid var(--foco); outline-offset:2px; }
+  .segmentos { display:flex; flex-wrap:wrap; gap:.4rem; background:var(--fundo2); padding:.35rem; border-radius:1rem; }
+  .segmentos button { flex:1 1 8rem; font:inherit; font-size:.98rem; min-height:2.8rem; border:none; border-radius:.75rem; background:transparent; color:var(--roxo-escuro); cursor:pointer; padding:.4rem .6rem; }
+  .segmentos button[aria-pressed=true] { background:#fff; font-weight:700; box-shadow:0 .1rem .4rem rgba(74,45,132,.18); }
   :focus-visible { outline:3px solid var(--foco); outline-offset:2px; }
-  .total { color:var(--suave); margin:.5rem 0 1rem; }
-  .cartao { background:var(--cartao); border:1px solid var(--borda); border-radius:1rem; padding:1rem; margin-bottom:1rem; }
-  .topo { display:flex; gap:.9rem; align-items:flex-start; }
-  .topo { flex-wrap:wrap; }
+  .barra-total { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.5rem; margin:0 0 1rem; }
+  .total { color:var(--suave); margin:0; font-weight:600; }
+  .limpar { font:inherit; background:none; border:none; color:var(--roxo); text-decoration:underline; cursor:pointer; min-height:2.6rem; padding:0 .2rem; }
+  .cartao { background:var(--cartao); border:1px solid var(--borda); border-radius:1.3rem; padding:1rem; margin-bottom:1rem; box-shadow:0 .2rem .8rem rgba(74,45,132,.05); }
+  .topo { display:flex; gap:.9rem; align-items:flex-start; flex-wrap:wrap; }
   .topo > div { min-width:0; flex:1 1 9rem; }
-  .topo img { width:5.5rem; height:5.5rem; object-fit:contain; flex:none; background:#fff; border-radius:.5rem; }
+  .topo img { width:5.5rem; height:5.5rem; object-fit:contain; flex:none; background:#fff; border-radius:.8rem; border:1px solid var(--borda); }
   .nome { font-size:1.08rem; font-weight:700; margin:0; overflow-wrap:anywhere; }
-  .marca { color:var(--suave); margin:.2rem 0 0; }
-  .melhor { margin:.9rem 0 .4rem; padding:.8rem; background:var(--destaque-fundo); border-radius:.7rem; }
-  
+  .etiquetas { display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.4rem; }
+  .etq { background:var(--roxo-claro); color:var(--roxo-escuro); border-radius:2rem; padding:.1rem .65rem; font-size:.9rem; }
+  .melhor { margin:.9rem 0 .4rem; padding:.9rem; background:var(--roxo-claro); border-radius:1rem; }
   .precos { display:flex; flex-wrap:wrap; align-items:baseline; gap:.2rem .5rem; }
-  .precos .de, .precos .off { margin-left:0; }
-  .preco { font-size:1.7rem; font-weight:800; color:var(--destaque); }
-  .de { text-decoration:line-through; color:var(--suave); margin-left:.4rem; }
-  .off { display:inline-block; background:var(--acento); color:#fff; font-weight:700; border-radius:.4rem; padding:.05rem .45rem; margin-left:.4rem; }
-  .info { color:var(--suave); margin:.25rem 0 0; }
-  .alerta { color:var(--destaque); font-weight:700; margin:.3rem 0 0; }
+  .preco { font-size:1.75rem; font-weight:800; color:var(--preco); }
+  .de { text-decoration:line-through; color:var(--suave); }
+  .off { display:inline-block; background:var(--off); color:#fff; font-weight:700; border-radius:2rem; padding:.05rem .6rem; }
+  .info { color:var(--suave); margin:.3rem 0 0; }
+  .alerta { color:var(--ok); font-weight:700; margin:.35rem 0 0; }
   ul.ofertas { list-style:none; padding:0; margin:.4rem 0 0; }
   ul.ofertas li { display:flex; flex-wrap:wrap; justify-content:space-between; gap:.3rem .8rem; padding:.6rem 0; border-top:1px solid var(--borda); }
-  a.botao { display:inline-flex; align-items:center; justify-content:center; min-height:2.9rem; padding:.55rem 1.1rem; border-radius:.6rem; background:var(--destaque); color:#fff; font-weight:700; text-decoration:none; margin-top:.6rem; }
-  a { color:#0b4f8a; }
+  a.botao { display:inline-flex; align-items:center; justify-content:center; min-height:3rem; padding:.55rem 1.3rem; border-radius:2rem; background:var(--roxo); color:#fff; font-weight:700; text-decoration:none; margin-top:.7rem; }
+  a.botao:hover { background:var(--roxo-escuro); }
+  a { color:var(--roxo); }
   details { margin-top:.7rem; }
-  summary { cursor:pointer; font-weight:600; min-height:2.6rem; padding:.4rem 0; color:#0b4f8a; }
-  .links { display:flex; flex-wrap:wrap; gap:.5rem 1rem; margin-top:.4rem; }
-  .links a { padding:.4rem 0; }
-  #mais { width:100%; font-size:1.05rem; min-height:3.2rem; border-radius:.7rem; border:2px solid var(--texto); background:#fff; cursor:pointer; font-weight:700; }
-  .aviso { background:#fff; border:1px dashed var(--borda); border-radius:.8rem; padding:.8rem 1rem; color:var(--suave); margin-top:1.5rem; }
+  summary { cursor:pointer; font-weight:600; min-height:2.6rem; padding:.4rem 0; color:var(--roxo); }
+  .links { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.3rem; }
+  .links a { border:2px solid var(--borda); border-radius:2rem; padding:.35rem .9rem; text-decoration:none; min-height:2.6rem; display:inline-flex; align-items:center; }
+  #mais { width:100%; font:inherit; font-size:1.05rem; min-height:3.2rem; border-radius:2rem; border:2px solid var(--roxo); color:var(--roxo); background:#fff; cursor:pointer; font-weight:700; }
+  .aviso { background:#fff; border:1px dashed var(--lilas); border-radius:1rem; padding:.8rem 1rem; color:var(--suave); margin-top:1.5rem; }
 </style>
 </head>
 <body>
 <main>
-  <h1>🐱 Preços para os gatos</h1>
+  <header><div class="logo" aria-hidden="true">🐱</div><h1>Preços para os gatos</h1></header>
   <p class="sub" id="atualizado"></p>
 
-  <label for="busca">Procurar produto</label>
-  <input type="search" id="busca" placeholder="Ex.: areia viva verde, sheba, renal">
+  <section class="painel" aria-label="Filtros">
+    <label class="titulo-filtro" for="busca">Procurar produto</label>
+    <div class="busca"><span aria-hidden="true">🔎</span><input type="search" id="busca" placeholder="Ex.: areia viva verde, sheba, renal"></div>
 
-  <div class="linha" role="group" aria-label="Tipo de produto" id="cats"></div>
+    <span class="titulo-filtro" id="t-cat">Tipo de produto</span>
+    <div class="linha" role="group" aria-labelledby="t-cat" id="cats"></div>
 
-  <label class="check"><input type="checkbox" id="minhas" checked> Só as marcas que eu compro</label>
-  <label class="check"><input type="checkbox" id="promo"> Só o que está em promoção</label>
+    <span class="titulo-filtro" id="t-marca">Marca</span>
+    <div class="linha" role="group" aria-labelledby="t-marca" id="marcas"></div>
 
-  <label for="ordem" style="margin-top:.6rem">Ordenar por</label>
-  <select id="ordem">
-    <option value="kg">Menor preço por kg</option>
-    <option value="preco">Menor preço</option>
-    <option value="off">Maior desconto</option>
-  </select>
+    <span class="titulo-filtro">Mostrar</span>
+    <label class="interruptor">Só as marcas que eu compro<input type="checkbox" id="minhas" checked><span class="trilho" aria-hidden="true"></span></label>
+    <label class="interruptor">Só o que está em promoção<input type="checkbox" id="promo"><span class="trilho" aria-hidden="true"></span></label>
 
-  <p class="total" id="total" aria-live="polite"></p>
+    <span class="titulo-filtro" id="t-ordem">Ordenar por</span>
+    <div class="segmentos" role="group" aria-labelledby="t-ordem" id="ordem"></div>
+  </section>
+
+  <div class="barra-total"><p class="total" id="total" aria-live="polite"></p><button class="limpar" id="limpar">Limpar filtros</button></div>
   <div id="lista"></div>
   <button id="mais" hidden>Mostrar mais produtos</button>
 
@@ -81,17 +107,30 @@
 const D = /*DADOS*/null;
 const brl = v => v.toLocaleString("pt-BR", {style:"currency", currency:"BRL"});
 const tira = s => (s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
-const CATS = ["Todos","Ração seca","Ração úmida","Areia","Petisco","Outros"];
-let cat = "Todos", mostrar = 30;
+const CATS = [["Todos","✨"],["Ração seca","🥣"],["Ração úmida","🥫"],["Areia","🌿"],["Petisco","🐟"],["Outros","🧶"]];
+const MARCAS = [["Todas",""],["Fórmula Natural","formula natural"],["Royal Canin","royal canin"],["Cansei de Ser Gato","cansei de ser gato"],["Viva Verde","viva verde"],["Catbio","catbio"],["Sheba","sheba"]];
+const ORDENS = [["kg","Preço por kg"],["preco","Menor preço"],["off","Maior desconto"]];
+let cat = "Todos", marca = "", ordem = "kg", mostrar = 30;
 const $ = id => document.getElementById(id);
 
 $("atualizado").textContent = "Atualizado em " + D.atualizado.split(" ")[0].split("-").reverse().join("/") + " às " + D.atualizado.split(" ")[1];
-CATS.forEach(c => {
-  const b = document.createElement("button");
-  b.className = "chip"; b.textContent = c; b.setAttribute("aria-pressed", c === cat);
-  b.onclick = () => { cat = c; document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x.textContent === c)); mostrar = 30; render(); };
-  $("cats").appendChild(b);
-});
+function grupo(el, itens, atual, cls, aoEscolher) {
+  el.innerHTML = "";
+  itens.forEach(([valor, rotulo, icone]) => {
+    const b = document.createElement("button");
+    if (cls) b.className = cls;
+    b.innerHTML = (icone ? `<span aria-hidden="true">${icone}</span>` : "") + rotulo;
+    b.setAttribute("aria-pressed", valor === atual());
+    b.onclick = () => { aoEscolher(valor); el.querySelectorAll("button").forEach((x, i) => x.setAttribute("aria-pressed", itens[i][0] === atual())); mostrar = 30; render(); };
+    el.appendChild(b);
+  });
+}
+function montarFiltros() {
+  grupo($("cats"), CATS.map(([c, i]) => [c, c, i]), () => cat, "chip", v => cat = v);
+  grupo($("marcas"), MARCAS.map(([n, k]) => [k, n]), () => marca, "chip pequeno", v => marca = v);
+  grupo($("ordem"), ORDENS, () => ordem, "", v => ordem = v);
+}
+montarFiltros();
 
 D.produtos.forEach(p => {
   const ok = p.o.filter(o => o.d); const b = (ok[0] || p.o[0]);
@@ -112,8 +151,8 @@ function cartao(p) {
   let hist = "";
   if (p.mv != null) hist = p.mv >= b.p - 0.009 ? `<p class="alerta">✔ Menor preço desde que comecei a acompanhar</p>` : `<p class="info">Menor preço já visto: ${brl(p.mv)} em ${p.mvd.split("-").reverse().join("/")}</p>`;
   return `<article class="cartao">
-    <div class="topo">${p.img ? `<img src="${p.img}" alt="" loading="lazy">` : ""}
-      <div><p class="nome">${p.n}</p><p class="marca">${p.m} · ${p.c}</p></div></div>
+    <div class="topo">${p.img ? `<img src="${p.img}" alt="" loading="lazy" onerror="this.remove()">` : ""}
+      <div><p class="nome">${p.n}</p><div class="etiquetas">${p.m ? `<span class="etq">${p.m}</span>` : ""}<span class="etq">${p.c}</span></div></div></div>
     <div class="melhor">
       <div class="precos"><span class="preco">${brl(b.p)}</span>${p.off ? `<span class="de">${brl(b.de)}</span><span class="off">-${p.off}%</span>` : ""}</div>
       <p class="info">Mais barato em <strong>${b.l}</strong>${b.d ? "" : " (esgotado)"}${p.kg ? " · " + porKg(p) : ""}</p>
@@ -127,15 +166,16 @@ function cartao(p) {
 
 function render() {
   const q = tira($("busca").value).split(/\s+/).filter(Boolean);
-  const minhas = $("minhas").checked, promo = $("promo").checked, ordem = $("ordem").value;
-  let l = D.produtos.filter(p => (cat === "Todos" || p.c === cat) && (!minhas || p.minha) && (!promo || p.off > 0) && q.every(w => p.txt.includes(w)));
+  const minhas = $("minhas").checked, promo = $("promo").checked;
+  let l = D.produtos.filter(p => (cat === "Todos" || p.c === cat) && (!marca || p.txt.includes(marca)) && (!minhas || p.minha) && (!promo || p.off > 0) && q.every(w => p.txt.includes(w)));
   const inf = Number.POSITIVE_INFINITY;
   l.sort(ordem === "preco" ? (a,b) => a.melhor.p - b.melhor.p : ordem === "off" ? (a,b) => b.off - a.off : (a,b) => (a.pkg ?? inf) - (b.pkg ?? inf));
   $("total").textContent = l.length === 1 ? "1 produto encontrado" : l.length + " produtos encontrados";
   $("lista").innerHTML = l.slice(0, mostrar).map(cartao).join("") || "<p>Nenhum produto com esses filtros.</p>";
   $("mais").hidden = l.length <= mostrar;
 }
-["busca","minhas","promo","ordem"].forEach(id => $(id).addEventListener("input", () => { mostrar = 30; render(); }));
+$("limpar").onclick = () => { cat = "Todos"; marca = ""; ordem = "kg"; $("busca").value = ""; $("minhas").checked = true; $("promo").checked = false; montarFiltros(); mostrar = 30; render(); };
+["busca","minhas","promo"].forEach(id => $(id).addEventListener("input", () => { mostrar = 30; render(); }));
 $("mais").onclick = () => { mostrar += 30; render(); };
 render();
 </script>
