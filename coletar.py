@@ -136,6 +136,75 @@ def coletar_shopify(chave, fonte):
     return itens
 
 
+def carregar_segredos():
+    """Lê segredos.env (NUNCA vai para o GitHub: está no .gitignore)."""
+    seg = {}
+    arq = RAIZ / "segredos.env"
+    if arq.exists():
+        for linha in arq.read_text(encoding="utf-8").splitlines():
+            if "=" in linha and not linha.strip().startswith("#"):
+                k, v = linha.split("=", 1)
+                seg[k.strip()] = v.strip()
+    return seg
+
+
+def token_mercadolivre(seg):
+    cid, sec = seg.get("ML_CLIENT_ID"), seg.get("ML_CLIENT_SECRET")
+    if not cid or not sec or "cole" in cid.lower():
+        return None
+    dados = urllib.parse.urlencode({"grant_type": "client_credentials", "client_id": cid, "client_secret": sec}).encode()
+    req = urllib.request.Request("https://api.mercadolibre.com/oauth/token", data=dados,
+                                 headers={"User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r)["access_token"]
+    except urllib.error.HTTPError as e:
+        print(f"  Mercado Livre recusou o login do app ({e.code}): {e.read()[:200]!r}")
+        return None
+
+
+def coletar_mercadolivre(chave, fonte):
+    token = token_mercadolivre(carregar_segredos())
+    if not token:
+        print("  sem chave do Mercado Livre em segredos.env; pulando")
+        return []
+    itens = []
+    for termo in fonte["buscas"]:
+        url = "https://api.mercadolibre.com/sites/MLB/search?" + urllib.parse.urlencode({"q": termo, "limit": 50})
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Authorization": f"Bearer {token}"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                dados = json.load(r)
+        except urllib.error.HTTPError as e:
+            print(f"  busca '{termo}' falhou ({e.code}): {e.read()[:200]!r}")
+            continue
+        time.sleep(PAUSA)
+        for p in dados.get("results", []):
+            nome = p.get("title", "")
+            if not eh_de_gato(nome, ""):
+                continue
+            attrs = {a.get("id"): a.get("value_name") for a in p.get("attributes", [])}
+            preco = p.get("price") or 0
+            if not preco:
+                continue
+            frete = " · frete grátis" if (p.get("shipping") or {}).get("free_shipping") else ""
+            itens.append({
+                "fonte": chave,
+                "loja": fonte["nome"] + frete,
+                "nome": nome,
+                "marca": attrs.get("BRAND") or "",
+                "ean": (attrs.get("GTIN") or "").split(",")[0].strip(),
+                "categoria": categoria(nome),
+                "peso_kg": peso_em_kg(nome),
+                "preco": round(preco, 2),
+                "preco_de": round(p.get("original_price") or preco, 2),
+                "disponivel": True,
+                "link": p.get("permalink", ""),
+                "imagem": (p.get("thumbnail") or "").replace("http://", "https://"),
+            })
+    return itens
+
+
 def main():
     cfg = json.loads((RAIZ / "config.json").read_text(encoding="utf-8"))
     DADOS.mkdir(exist_ok=True)
@@ -143,7 +212,7 @@ def main():
     todos = []
     for chave, fonte in cfg["fontes"].items():
         print(f"Coletando {fonte['nome']}...")
-        f = coletar_vtex if fonte["tipo"] == "vtex" else coletar_shopify
+        f = {"vtex": coletar_vtex, "shopify": coletar_shopify, "mercadolivre": coletar_mercadolivre}[fonte["tipo"]]
         itens = f(chave, fonte)
         print(f"  {len(itens)} itens")
         todos += itens

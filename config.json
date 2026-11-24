@@ -29,6 +29,20 @@
       "nome": "Catbio (loja da marca)",
       "tipo": "shopify",
       "url": "https://www.catbio.com.br"
+    },
+    "mercadolivre": {
+      "nome": "Mercado Livre",
+      "tipo": "mercadolivre",
+      "buscas": [
+        "racao formula natural gatos",
+        "racao royal canin gatos",
+        "areia viva verde",
+        "areia cansei de ser gato",
+        "areia catbio",
+        "areia biodegradavel gatos",
+        "sheba",
+        "petisco cansei de ser gato"
+      ]
     }
   },
   "links_busca": {

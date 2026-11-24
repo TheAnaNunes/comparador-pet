@@ -1183,3 +1183,604 @@ data,fonte,ean,nome,preco,preco_de
 2026-11-22 20:11,catbio,,Areia Higiênica Biodegradável - Catbio 100% Mandioca - Grãos médios - 4 kg Grãos Médios / 4 KG,59.9,59.9
 2026-11-22 20:11,catbio,,Areia Higiênica Biodegradável - Catbio Milho & Mandioca - Super Clean (Grãos Médios) - 4 kg,59.9,69.9
 2026-11-22 20:11,catbio,,Areia Higiênica Biodegradável - Catbio Milho & Mandioca - Max Clean (Grãos finos) - 4 kg,59.9,69.9
+2026-11-24 15:16,cobasi,7898363312013,Ração Fórmula Natural Life Gatos Castrados Frango 1 kg,59.99,59.99
+2026-11-24 15:16,cobasi,7898752403377,"Ração Fórmula Natural Life Gatos Castrados Frango 10,1 kg",319.99,319.99
+2026-11-24 15:16,cobasi,7898363317575,Ração Fórmula Natural Life Gatos Castrados Salmão 1 kg,59.99,59.99
+2026-11-24 15:16,cobasi,7898752403384,"Ração Fórmula Natural Life Gatos Castrados Salmão 10,1 kg",319.9,319.9
+2026-11-24 15:16,cobasi,7898363316370,Ração Fórmula Natural Life Gatos Castrados Salmão 15 kg,355.99,444.99
+2026-11-24 15:16,cobasi,7898363315052,"Ração Fórmula Natural Gatos Castrados Fresh Meat sabor Salmão, Abóbora e Cúrcuma 1 kg",67.99,84.99
+2026-11-24 15:16,cobasi,7898752403766,"Ração Fórmula Natural Gatos Castrados Fresh Meat sabor Salmão, Abóbora e Cúrcuma 10,1kg pac. Indiv. de 505g",499.99,499.99
+2026-11-24 15:16,cobasi,7898752404794,Ração Úmida Fórmula Natural Gourmet Gatos Carne Desfiada 70 g,12.99,12.99
+2026-11-24 15:16,cobasi,7898752404817,Ração Úmida Fórmula Natural Gourmet Gatos Atum em Pedaços 70 g,12.99,12.99
+2026-11-24 15:16,cobasi,7898752404800,Ração Úmida Fórmula Natural Gourmet Gatos Peito de Frango 70 g,12.99,12.99
+2026-11-24 15:16,cobasi,7898363319999,Ração Fórmula Natural Life Gatos Filhotes Frango e Salmão 1 kg,59.99,59.99
+2026-11-24 15:16,cobasi,7898752403407,"Ração Fórmula Natural Life Gatos Filhotes Frango e Salmão 10,1 kg",329.9,329.9
+2026-11-24 15:16,cobasi,7898363319975,Ração Fórmula Natural Life Gatos Adultos Frango e Salmão 1 kg,59.99,59.99
+2026-11-24 15:16,cobasi,7898752403391,"Ração Fórmula Natural Life Gatos Adultos Frango e Salmão 10,1 kg",329.9,329.9
+2026-11-24 15:16,cobasi,7898752403414,"Ração Fórmula Natural Life Gatos Castrados Sênior 7+ Frango e Salmão 10,1 kg",317.99,317.99
+2026-11-24 15:16,cobasi,7898752403803,"Ração Fórmula Natural Fresh Meat Hairball Gatos Salmão 10,1kg pac. Indiv. de 505g",574.9,574.9
+2026-11-24 15:16,cobasi,7898363317766,"Ração Fórmula Natural Vet Care Gatos Renal 1,5 kg",114.9,114.9
+2026-11-24 15:16,cobasi,7898752400963,Ração Fórmula Natural Vet Care Gatos Renal 7 kg,389.9,389.9
+2026-11-24 15:16,cobasi,7898363317865,"Ração Fórmula Natural Vet Care Gatos Urinária 1,5 kg",104.9,104.9
+2026-11-24 15:16,cobasi,7898752400437,Ração Fórmula Natural Vet Care Gatos Urinária 7 kg,384.9,384.9
+2026-11-24 15:16,cobasi,7898752403612,Cookies Fórmula Natural Fresh Meat Gatos Adultos Frango 40 g,15.99,15.99
+2026-11-24 15:16,cobasi,7898752403629,Cookies Fórmula Natural Fresh Meat Gatos Adultos Salmão 40 g,15.99,15.99
+2026-11-24 15:16,cobasi,7898363315076,Ração Fórmula Natural Fresh Meat Gatos Adultos Frango 1 kg,79.9,79.9
+2026-11-24 15:16,cobasi,7898752403773,"Ração Fórmula Natural Fresh Meat Gatos Adultos Frango 10,1kg pac. Indiv. de 505g",479.99,479.99
+2026-11-24 15:16,cobasi,7898363315113,Ração Fórmula Natural Fresh Meat Gatos Filhote Frango 1 kg,79.9,79.9
+2026-11-24 15:16,cobasi,7898752403780,"Ração Fórmula Natural Fresh Meat Gatos Filhote Frango 10,1kg pac. Indiv. de 505g",529.99,529.99
+2026-11-24 15:16,cobasi,7898363315038,Ração Fórmula Natural Fresh Meat Gatos Castrados Carne 1 kg,84.9,84.9
+2026-11-24 15:16,cobasi,7898752403759,"Ração Fórmula Natural Fresh Meat Gatos Castrados Carne 10,1kg pac. Indiv. de 505g",499.9,499.9
+2026-11-24 15:16,cobasi,7898363315120,Ração Fórmula Natural Fresh Meat Gatos Sênior Frango 1 kg,75.9,75.9
+2026-11-24 15:16,cobasi,7898752403797,"Ração Fórmula Natural Fresh Meat Gatos Sênior Frango 10,1kg pac. Indiv. de 505g",484.99,484.99
+2026-11-24 15:16,cobasi,7898363318220,Ração Úmida Fórmula Natural Vet Care Urinária para Gatos 100 g,16.99,16.99
+2026-11-24 15:16,cobasi,7898363318213,Ração Úmida Fórmula Natural Vet Care Renal para Gatos 100 g,16.49,16.49
+2026-11-24 15:16,cobasi,7898752400567,Ração Fórmula Natural Fresh Meat Hairball Gatos Adultos Salmão com Cenoura 1 kg,94.99,94.99
+2026-11-24 15:16,cobasi,7898752400659,Ração Fórmula Natural Fresh Meat Hairball Gatos Adultos Salmão com Cenoura 7 kg pac. Indiv. de 500g,424.99,424.99
+2026-11-24 15:16,cobasi,7897348208563,"Ração Premier Formula Gatos Castrados Frango 1,5 kg",64.9,76.99
+2026-11-24 15:16,cobasi,7897348208570,"Ração Premier Formula Gatos Castrados Frango 7,5 kg",177.9,209.99
+2026-11-24 15:16,cobasi,7897348208587,"Ração Premier Formula Gatos Castrados Salmão 1,5 kg",64.9,76.99
+2026-11-24 15:16,cobasi,7897348208594,"Ração Premier Formula Gatos Castrados Salmão 7,5 kg",177.9,209.99
+2026-11-24 15:16,cobasi,7897348208693,"Ração Premier Formula Gatos Filhotes Frango 1,5 kg",64.9,76.99
+2026-11-24 15:16,cobasi,7897348208600,"Ração Premier Formula Gatos Filhotes Frango 7,5 kg",177.9,209.99
+2026-11-24 15:16,cobasi,7897348208556,"Ração Premier Formula Gatos Adultos Frango 7,5 kg",169.9,199.99
+2026-11-24 15:16,cobasi,7898959761324,Ração Úmida Natural para Gatos Livelong Javali 300g,27.9,27.9
+2026-11-24 15:16,cobasi,7898604431213,Ração Vet Life Natural Gatos Urinary Struvite 400g,49.5,49.5
+2026-11-24 15:16,cobasi,7898604431237,"Ração Vet Life Natural Gatos Urinary Struvite 7,5kg",486.9,486.9
+2026-11-24 15:16,cobasi,7898626401928,Petisco Gatos Origem Natural Sensations Salmão 40 g,7.59,7.59
+2026-11-24 15:16,cobasi,7898626401935,Petisco Gatos Origem Natural Sensations Atum 40 g,7.59,7.59
+2026-11-24 15:16,cobasi,0736532671752,Petisco Natural Gatos Meowwies Flakes Frango 80 g,26.99,26.99
+2026-11-24 15:16,cobasi,7898626401959,Petisco Gatos Origem Natural Sensations Frango 40 g,7.59,7.59
+2026-11-24 15:16,cobasi,7898626401942,Petisco Gatos Origem Natural Sensations Carne 40 g,7.59,7.59
+2026-11-24 15:16,cobasi,7898959982309,Petisco Gatos Origem Natural Sensations Hairball 40 g,7.59,7.59
+2026-11-24 15:16,cobasi,7898604431145,Ração Vet Life Natural Gastrointestinal para Gatos Adultos 400 g,49.5,49.5
+2026-11-24 15:16,cobasi,7898604431152,Ração Vet Life Natural Gastrointestinal para Gatos Adultos 2 kg,145.2,181.5
+2026-11-24 15:16,cobasi,7897348207412,"Ração Premier Seleção Natural Gatos Castrados Frango Korin 1,5 kg",99.99,99.99
+2026-11-24 15:16,cobasi,7897348207429,"Ração Premier Seleção Natural Gatos Castrados Frango Korin 7,5 kg",269.99,269.99
+2026-11-24 15:16,cobasi,7898682043018,Petisco Gatos Origem Natural Crost Filezinho de Atum 20 g,5.2,7.49
+2026-11-24 15:16,cobasi,0736532671745,Petisco Natural Gatos Meowwies Soft Bites Frango 80 g,26.99,26.99
+2026-11-24 15:16,cobasi,7896048915641,"Ração Guabi Natural Gatos Adultos Castrados Salmão e Cevada 1,5 kg",99.99,99.99
+2026-11-24 15:16,cobasi,7896048915153,"Ração Guabi Natural Gatos Adultos Castrados Salmão e Cevada 7,5 kg",253.9,253.9
+2026-11-24 15:16,cobasi,7898686670340,Petisco Gatos Origem Natural Crost Filezinho de Frango 20 g,5.2,7.49
+2026-11-24 15:16,cobasi,7898686670357,Petisco Gatos Origem Natural Crost Filezinho Bovino 20 g,5.2,7.49
+2026-11-24 15:16,cobasi,7898682043025,Petisco Gatos Origem Natural Crost Filezinho de Salmão 20 g,5.2,7.49
+2026-11-24 15:16,cobasi,7897348205180,"Ração Premier Seleção Natural Gatos Adultos Frango 1,5 kg",94.99,94.99
+2026-11-24 15:16,cobasi,7897348205173,"Ração Premier Seleção Natural Gatos Filhotes Frango 1,5 kg",99.99,99.99
+2026-11-24 15:16,cobasi,7898959982316,Petisco Gatos Origem Natural Sensations Dental Care 40 g,7.59,7.59
+2026-11-24 15:16,cobasi,7896048915627,"Ração Guabi Natural Gatos Adultos Salmão e Cevada 1,5 kg",90.6,90.6
+2026-11-24 15:16,cobasi,7896048915146,"Ração Guabi Natural Gatos Adultos Salmão e Cevada 7,5 kg",234.9,234.9
+2026-11-24 15:16,cobasi,0736532671738,Petisco Natural Gatos Meowwies Mini Sushi Frango 80 g,26.99,26.99
+2026-11-24 15:16,cobasi,7898959761065,Ração Úmida Natural para Gatos Livelong Yummy Meats Delícias de Carnes 150g,18.9,18.9
+2026-11-24 15:16,cobasi,7898959761287,Ração Úmida Natural para Gatos Livelong Yummy Meats Delícias de Carnes 300g,26.9,26.9
+2026-11-24 15:16,cobasi,8606014107050,Ração Úmida N&amp;D Natural Gatos Atum 70 g,21.9,21.9
+2026-11-24 15:16,cobasi,7897348205517,Ração Golden Seleção Natural Gatos Adultos Frango e Arroz 1 kg,30.99,30.99
+2026-11-24 15:16,cobasi,7897348205524,Ração Golden Seleção Natural Gatos Adultos Frango e Arroz 3 kg,79.99,79.99
+2026-11-24 15:16,cobasi,7897348205531,"Ração Golden Seleção Natural Gatos Adultos Frango e Arroz 10,1 kg",189.99,189.99
+2026-11-24 15:16,cobasi,8606014107067,Ração Úmida N&amp;D Natural Gatos Frango 70 g,21.9,21.9
+2026-11-24 15:16,cobasi,7898959761294,Ração Úmida Natural para Gatos Livelong Sensitive Cordeiro 300g,36.9,36.9
+2026-11-24 15:16,cobasi,7898739181786,"Fonte Cerâmica Natural Eco Fuzz para Gatos Marrom 1,2 L",219.99,219.99
+2026-11-24 15:16,cobasi,7898959761058,Ração Úmida Natural para Gatos Livelong Yummy Turducken Delícias de Aves 150g,18.9,18.9
+2026-11-24 15:16,cobasi,7898959761270,Ração Úmida Natural para Gatos Livelong Yummy Turducken Delícias de Aves 300g,26.9,26.9
+2026-11-24 15:16,cobasi,7896048915573,"Ração Guabi Natural Gatos Filhotes Frango e Arroz Integral 1,5 kg",97.9,97.9
+2026-11-24 15:16,cobasi,7897348205548,Ração Golden Seleção Natural Gatos Filhotes Frango e Arroz 1 kg,32.99,32.99
+2026-11-24 15:16,cobasi,7897348205555,Ração Golden Seleção Natural Gatos Filhotes Frango e Arroz 3 kg,84.99,84.99
+2026-11-24 15:16,cobasi,7897348205845,"Ração Golden Seleção Natural Gatos Filhotes Frango e Arroz 10,1 kg",199.99,199.99
+2026-11-24 15:16,cobasi,7896048915658,"Ração Guabi Natural Gatos Adultos Castrados Cordeiro e Aveia 1,5 kg",104.9,104.9
+2026-11-24 15:16,cobasi,7896048915160,"Ração Guabi Natural Gatos Adultos Castrados Cordeiro e Aveia 7,5 kg",259.9,259.9
+2026-11-24 15:16,cobasi,7896048915597,"Ração Guabi Natural Gatos Adultos Frango e Arroz Integral 1,5 kg",90.6,90.6
+2026-11-24 15:16,cobasi,7896048915122,"Ração Guabi Natural Gatos Adultos Frango e Arroz Integral 7,5 kg",234.9,234.9
+2026-11-24 15:16,cobasi,7898959761300,Ração Úmida Natural para Gatos Livelong Sensitive Pato 300g,36.9,36.9
+2026-11-24 15:16,cobasi,8606014107104,Ração Úmida N&amp;D Natural Gatos Cordeiro 70 g,21.99,21.99
+2026-11-24 15:16,cobasi,7898682043032,Petisco Gatos Origem Natural Crost Filezinho de Saint Peter 20 g,5.2,7.49
+2026-11-24 15:16,cobasi,7898959761317,Ração Úmida Natural para Gatos Livelong Sensitive Jacaré 300g,36.9,36.9
+2026-11-24 15:16,cobasi,7898959761072,Ração Úmida Natural para Gatos Livelong Yummy Sea Food Delícias do Mar 150g,18.9,18.9
+2026-11-24 15:16,cobasi,7898959761263,Ração Úmida Natural para Gatos Livelong Yummy Sea Food Delícias do Mar 300g,26.9,26.9
+2026-11-24 15:16,cobasi,7897348207955,Ração Golden Seleção Natural Gatos Castrados Frango com Batata-Doce 1 kg,32.99,32.99
+2026-11-24 15:16,cobasi,7897348207948,Ração Golden Seleção Natural Gatos Castrados Frango com Batata-Doce 3 kg,84.99,84.99
+2026-11-24 15:16,cobasi,7897348207931,"Ração Golden Seleção Natural Gatos Castrados Frango com Batata-Doce 10,1 kg",199.99,199.99
+2026-11-24 15:16,cobasi,7891000480724,Ração Purina One Natural Sense Gatos Filhotes Frango e Carne 1 kg,87.99,87.99
+2026-11-24 15:16,cobasi,7891000481462,Ração Purina One Natural Sense Gatos Filhotes Frango e Carne 3 kg,223.99,223.99
+2026-11-24 15:16,cobasi,7891000476611,"Ração Purina One Natural Sense Gatos Filhotes Frango e Carne 7,5 kg",395.99,395.99
+2026-11-24 15:16,cobasi,7896048917478,"Ração Úmida Guabi Natural Gatos Frango, Cereais Integrais e Vegetais 85 g",5.89,5.89
+2026-11-24 15:16,cobasi,7897348207092,Ração Golden Seleção Natural Gatos Castrados Frango com Abóbora e Alecrim 1kg,32.99,32.99
+2026-11-24 15:16,cobasi,7897348207108,Ração Golden Seleção Natural Gatos Castrados Frango com Abóbora e Alecrim 3kg,84.99,84.99
+2026-11-24 15:16,cobasi,7897348207115,"Ração Golden Seleção Natural Gatos Castrados Frango com Abóbora e Alecrim 10,1 kg",199.99,199.99
+2026-11-24 15:16,cobasi,7898604435662,Ração Vet Life Natural Gatos Adultos Hypoallergenic Porco e Batata 400 g,49.99,49.99
+2026-11-24 15:16,cobasi,7898604435655,Ração Vet Life Natural Gatos Adultos Hypoallergenic Porco e Batata 2 kg,202.9,202.9
+2026-11-24 15:16,cobasi,7896048917553,"Ração Guabi Natural Grain Free Gatos Castrados Salmão e Lentilha 7,5 kg",291.9,291.9
+2026-11-24 15:16,cobasi,7896048915894,"Ração Guabi Natural Gatos Sênior Castrados Frango e Arroz Integral 1,5 kg",99.9,99.9
+2026-11-24 15:16,cobasi,7896048915887,"Ração Guabi Natural Gatos Sênior Castrados Frango e Arroz Integral 7,5 kg",254.9,254.9
+2026-11-24 15:16,cobasi,7896048919021,"Ração Úmida Guabi Natural Gatos Frango, Salmão, Cereais Integrais e Vegetais 85 g",5.89,5.89
+2026-11-24 15:16,cobasi,8606014107098,Ração Úmida N&amp;D Natural Gatos Adultos Atum e Frango 70 g,21.9,21.9
+2026-11-24 15:16,cobasi,8606014107081,Ração Úmida N&amp;D Natural Gatos Adultos Atum e Camarão 70 g,21.9,21.9
+2026-11-24 15:16,cobasi,7891000480755,Ração Purina One Natural Sense Gatos Adultos Castrados Frango e Salmão 1 kg,83.99,83.99
+2026-11-24 15:16,cobasi,7891000481387,Ração Purina One Natural Sense Gatos Adultos Castrados Frango e Salmão 3 kg,213.99,213.99
+2026-11-24 15:16,cobasi,7891000476581,"Ração Purina One Natural Sense Gatos Adultos Castrados Frango e Salmão 7,5 kg",376.99,376.99
+2026-11-24 15:16,cobasi,7891000480786,Ração Purina One Natural Sense Gatos Adultos Castrados Frango e Carne 1 kg,83.99,83.99
+2026-11-24 15:16,cobasi,7891000481424,Ração Purina One Natural Sense Gatos Adultos Castrados Frango e Carne 3 kg,213.99,213.99
+2026-11-24 15:16,cobasi,7891000476888,"Ração Purina One Natural Sense Gatos Adultos Castrados Frango e Carne 7,5 kg",376.99,376.99
+2026-11-24 15:16,cobasi,8606014107074,Ração Úmida N&amp;D Natural Gatos Adultos Atum e Salmão 70 g,21.9,21.9
+2026-11-24 15:16,cobasi,7896183313548,Shampoo Gatos Turma da Mônica Pets 500 ml,26.91,26.91
+2026-11-24 15:16,cobasi,7896048917508,"Ração Úmida Guabi Natural Grain Free para Gatos Sabor Frango, Salmão e Vegetais 85 g",5.89,5.89
+2026-11-24 15:16,cobasi,7908320402845,Ração Biofresh Gatos Filhotes Frango 400 g,45.99,45.99
+2026-11-24 15:16,cobasi,7908320402876,"Ração Biofresh Gatos Filhotes Frango 1,5 kg",153.99,153.99
+2026-11-24 15:16,cobasi,7908320403170,Ração Biofresh Gatos Castrados Salmão 400 g,45.99,45.99
+2026-11-24 15:16,cobasi,7908320403187,"Ração Biofresh Gatos Castrados Salmão 1,5 kg",153.9,153.9
+2026-11-24 15:16,cobasi,7908320403217,"Ração Biofresh Gatos Castrados Salmão 7,5 kg",359.99,399.99
+2026-11-24 15:16,cobasi,7908320403101,Ração Biofresh Gatos Castrados Frango 400 g,45.9,45.9
+2026-11-24 15:16,cobasi,7908320403118,"Ração Biofresh Gatos Castrados Frango 1,5 kg",153.9,153.9
+2026-11-24 15:16,cobasi,7908320403149,"Ração Biofresh Gatos Castrados Frango 7,5 kg",399.9,399.9
+2026-11-24 15:16,cobasi,7908320403033,Ração Biofresh Gatos Adultos Salmão 400 g,44.99,44.99
+2026-11-24 15:16,cobasi,7908320403040,"Ração Biofresh Gatos Adultos Salmão 1,5 kg",144.99,144.99
+2026-11-24 15:16,cobasi,7908320403071,"Ração Biofresh Gatos Adultos Salmão 7,5 kg",379.9,379.9
+2026-11-24 15:16,cobasi,7908320402906,Ração Biofresh Gatos Filhotes Salmão 400 g,45.9,45.9
+2026-11-24 15:16,cobasi,7908320402913,"Ração Biofresh Gatos Filhotes Salmão 1,5 kg",153.99,153.99
+2026-11-24 15:16,cobasi,7896048999481,"Ração Biofresh Gatos Filhotes Salmão 7,5kg",399.99,399.99
+2026-11-24 15:16,cobasi,7908320402968,Ração Biofresh Gatos Adultos Frango 400 g,44.99,44.99
+2026-11-24 15:16,cobasi,7908320402975,"Ração Biofresh Gatos Adultos Frango 1,5 kg",144.9,144.9
+2026-11-24 15:16,cobasi,7908320403002,"Ração Biofresh Gatos Adultos Frango 7,5 kg",379.9,379.9
+2026-11-24 15:16,cobasi,7896181213413,Ração Royal Canin Bolas de Pelo para Gatos Adultos 400 g,41.99,51.5
+2026-11-24 15:16,cobasi,7908248301879,Ração Royal Canin Bolas de Pelo para Gatos Adultos 3 kg,198.99,308.99
+2026-11-24 15:16,cobasi,7896181213420,"Ração Royal Canin Bolas de Pelo para Gatos Adultos 1,5 kg",143.99,161.99
+2026-11-24 15:16,cobasi,7896183305048,Shampoo para Gatos Sem Perfume Sanol 500ml,28.9,28.9
+2026-11-24 15:16,cobasi,7896181213208,Ração Royal Canin Gatos Adultos Castrados 400 g,34.99,39.9
+2026-11-24 15:16,cobasi,7896181213215,"Ração Royal Canin Gatos Adultos Castrados 1,5 kg",109.5,121.99
+2026-11-24 15:16,cobasi,7896181299059,Ração Royal Canin Gatos Adultos Castrados 4 kg,210.99,299.99
+2026-11-24 15:16,cobasi,7908248300902,"Ração Royal Canin Gatos Adultos Castrados 10,1kg",398.9,492.99
+2026-11-24 15:16,cobasi,7896181215752,Ração Royal Canin Gatos Filhotes Castrados 400 g,34.99,40.99
+2026-11-24 15:16,cobasi,7896181215769,"Ração Royal Canin Gatos Filhotes Castrados 1,5 kg",114.99,141.99
+2026-11-24 15:16,cobasi,7908248301107,Ração Royal Canin Gatos Filhotes Castrados 4 kg,210.99,341.99
+2026-11-24 15:16,cobasi,7896181215776,"Ração Royal Canin Gatos Filhotes Castrados 7,5 kg",223.04,223.04
+2026-11-24 15:16,cobasi,7896181217190,Ração Úmida Royal Canin Gatos Castrados Adultos Pedaços ao Molho 85g,9.9,9.9
+2026-11-24 15:16,cobasi,7896181212829,Ração Royal Canin Indoor Gatos Adultos 400 g,33.43,37.99
+2026-11-24 15:16,cobasi,7896181212836,"Ração Royal Canin Indoor Gatos Adultos 1,5kg",115.99,129.99
+2026-11-24 15:16,cobasi,7908248301602,"Ração Royal Canin Anallergenic Gatos Adultos 2,5 kg",373.11,373.11
+2026-11-24 15:16,cobasi,7896181213062,Ração Royal Canin Sensible Gatos Adultos 400 g,34.49,34.49
+2026-11-24 15:16,cobasi,7896181213079,"Ração Royal Canin Sensible Gatos Adultos 1,5kg",111.9,124.99
+2026-11-24 15:16,cobasi,7896181299042,Ração Royal Canin Sensible Gatos Adultos 4 kg,210.99,316.99
+2026-11-24 15:16,cobasi,7896181213086,"Ração Royal Canin Sensible Gatos Adultos 7,5 kg",299.99,470.99
+2026-11-24 15:16,cobasi,7896181212553,Ração Royal Canin Fit Gatos adultos 400 g,35.99,35.99
+2026-11-24 15:16,cobasi,7896181212560,"Ração Royal Canin Fit Gatos adultos 1,5kg",115.27,115.27
+2026-11-24 15:16,cobasi,7896181214809,"Ração Royal Canin Fit Gatos adultos 7,5 kg",300.99,447.99
+2026-11-24 15:16,cobasi,7896181213277,Ração Royal Canin Persa Gatos Adultos 400g,42.01,42.01
+2026-11-24 15:16,cobasi,7896181213284,"Ração Royal Canin Persa Gatos Adultos 1,5 kg",145.74,145.74
+2026-11-24 15:16,cobasi,7896181213307,"Ração Royal Canin Persa Gatos Adultos 7,5 kg",302.99,472.99
+2026-11-24 15:16,cobasi,7896181213857,"Ração Royal Canin Diabetic Gatos Adultos 1,5 kg",162.46,162.46
+2026-11-24 15:16,cobasi,7896181214137,Ração Úmida Royal Canin Kitten Gatos Filhotes 85 g,9.9,9.9
+2026-11-24 15:16,cobasi,7908248300650,Ração Úmida Royal Canin Gastrointestinal Gatos Adultos 85 g,18.49,18.49
+2026-11-24 15:16,cobasi,9003579308738,Ração Úmida Royal Canin Instinctive Gatos adultos 85g,9.9,9.9
+2026-11-24 15:16,cobasi,7908248300063,Ração Úmida Royal Canin Satiety Gatos Adultos 85 g,18.71,18.71
+2026-11-24 15:16,cobasi,7896181215516,Ração Royal Canin para Gatos Adultos Castrados Acima de 12 anos 400 g,38.99,43.99
+2026-11-24 15:16,cobasi,7908248301800,Ração Royal Canin para Gatos Adultos Castrados Acima de 12 anos 4 kg,221.99,364.99
+2026-11-24 15:16,cobasi,7896181215523,"Ração Royal Canin para Gatos Adultos Castrados Acima de 12 anos 1,5kg",128.5,142.99
+2026-11-24 15:16,cobasi,7896181213369,Ração Royal Canin Light para Gatos Adultos 400 g,50.9,50.9
+2026-11-24 15:16,cobasi,7896181213376,"Ração Royal Canin Light para Gatos Adultos 1,5 kg",143.99,168.99
+2026-11-24 15:16,cobasi,7908248301893,Ração Royal Canin Light para Gatos Adultos 3 kg,198.99,308.99
+2026-11-24 15:16,cobasi,7896181213383,"Ração Royal Canin Light para Gatos Adultos 7,5 kg",360.99,507.99
+2026-11-24 15:16,cobasi,7908248300070,Ração Úmida Royal Canin Urinary S/O Gatos Adultos 85 g,18.71,18.71
+2026-11-24 15:16,cobasi,7896181298960,Ração Royal Canin Cuidado Digestivo para Gatos Adultos 400g,39.99,48.99
+2026-11-24 15:16,cobasi,7896181218388,"Ração Royal Canin Cuidado Digestivo para Gatos Adultos 1,5kg",144.99,161.99
+2026-11-24 15:16,cobasi,7908248301909,Ração Royal Canin Cuidado Digestivo para Gatos Adultos 3 kg,212.9,308.99
+2026-11-24 15:16,cobasi,7908248301374,Ração Royal Canin Controle do Apetite para Gatos Adultos 400 g,31.99,48.99
+2026-11-24 15:16,cobasi,7908248301381,"Ração Royal Canin Controle do Apetite para Gatos Adultos 1,5 kg",144.99,168.99
+2026-11-24 15:16,cobasi,7908248301886,Ração Royal Canin Controle do Apetite para Gatos Adultos 3 kg,212.9,308.99
+2026-11-24 15:16,cobasi,7896181213246,Ração Royal Canin Kitten Persa Gatos Filhotes 400 g,50.9,50.9
+2026-11-24 15:16,cobasi,7896181213253,"Ração Royal Canin Kitten Persa Gatos Filhotes 1,5 kg",107.99,168.99
+2026-11-24 15:16,cobasi,7908248300865,Ração Úmida Royal Canin Castrados Patê Gatos Adultos 85 g,9.9,9.9
+2026-11-24 15:16,cobasi,7896181215783,Ração Royal Canin Indoor 7 + Gatos Adultos 400g,42.5,42.5
+2026-11-24 15:16,cobasi,7896181215790,"Ração Royal Canin Indoor 7 + Gatos Adultos 1,5kg",122.9,136.99
+2026-11-24 15:16,cobasi,7908248302067,Ração Royal Canin Veterinary Diet Gastrointestinal Gatos Adultos 400 g,44.7,44.7
+2026-11-24 15:16,cobasi,7896181215387,"Ração Royal Canin Veterinary Diet Gastrointestinal Gatos Adultos 1,5kg",155.31,155.31
+2026-11-24 15:16,cobasi,7908248300957,Ração Royal Canin Veterinary Diet Gastrointestinal Gatos Adultos 4 kg,365.99,365.99
+2026-11-24 15:16,cobasi,7908248302463,Ração Úmida Royal Canin Ageing 11+ Gatos Adultos 85 g,10.99,10.99
+2026-11-24 15:16,cobasi,7896181215547,Ração Royal Canin Castrados 7+ Gatos Adultos 400 g,39.99,39.99
+2026-11-24 15:16,cobasi,7896181215554,"Ração Royal Canin Castrados 7+ Gatos Adultos 1,5kg",118.5,131.99
+2026-11-24 15:16,cobasi,7908248301114,Ração Royal Canin Castrados 7+ Gatos Adultos 4 kg,221.99,320.99
+2026-11-24 15:16,cobasi,7908248300858,Ração Úmida Royal Canin Castrados Jelly Gatos Adultos 85 g,9.9,9.9
+2026-11-24 15:16,cobasi,7896181213406,"Ração Royal Canin Pele e Pelagem para Gatos Adultos 1,5 kg",143.99,168.99
+2026-11-24 15:16,cobasi,7908248301862,Ração Royal Canin Pele e Pelagem para Gatos Adultos 3 kg,198.99,308.99
+2026-11-24 15:16,cobasi,7908248301282,Ração Úmida Royal Canin Sachê Light para Gatos Adultos 85g,9.9,9.9
+2026-11-24 15:16,cobasi,7896181213147,Ração Royal Canin Exigent para Gatos Adultos com Paladar Exigente 400 g,34.49,34.49
+2026-11-24 15:16,cobasi,7896181213154,"Ração Royal Canin Exigent para Gatos Adultos com Paladar Exigente 1,5 kg",109.5,121.99
+2026-11-24 15:16,cobasi,7896181298977,Ração Royal Canin Exigent para Gatos Adultos com Paladar Exigente 4 kg,210.99,304.99
+2026-11-24 15:16,cobasi,7896181210443,"Ração Royal Canin Exigent para Gatos Adultos com Paladar Exigente 7,5 kg",224.29,224.29
+2026-11-24 15:16,cobasi,7908248300926,"Ração Royal Canin Exigent para Gatos Adultos com Paladar Exigente 10,1 kg",399.99,499.99
+2026-11-24 15:16,cobasi,7908248301091,Ração Úmida Royal Canin Controle do Apetite Gatos Adultos 85 g,9.9,9.9
+2026-11-24 15:16,cobasi,7908248301688,Ração Úmida Royal Canin Veterinary Diet Renal com Peixe para Gatos 85 g,19.99,19.99
+2026-11-24 15:16,cobasi,7896181299011,"Ração Royal Canin Maine Coon Gatos Adultos 1,5 kg",119.49,119.49
+2026-11-24 15:16,cobasi,7896181299035,Ração Royal Canin Maine Coon Gatos Adultos 4 kg,276.99,429.5
+2026-11-24 15:16,cobasi,7896181218104,Ração Úmida Royal Canin Bolas de Pelo Gatos Adultos 85 g,9.9,9.9
+2026-11-24 15:16,cobasi,7908248302036,Ração Royal Canin Renal Special Gatos Adultos 400g,44.7,44.7
+2026-11-24 15:16,cobasi,7896181216018,"Ração Royal Canin Renal Special Gatos Adultos 1,5kg",154.9,154.9
+2026-11-24 15:16,cobasi,7908248300988,Ração Royal Canin Renal Special Gatos Adultos 4 kg,355.07,355.07
+2026-11-24 15:16,cobasi,7908248301978,Ração Úmida Royal Canin Pedaços ao Molho Cuidado Digestivo para Gatos Adultos 85 g,9.99,9.99
+2026-11-24 15:16,cobasi,7908248302074,Ração Royal Canin Veterinary Diet Satiety para Gatos Com Excesso de Peso 400 g,49.99,49.99
+2026-11-24 15:16,cobasi,7896181218371,"Ração Royal Canin Veterinary Diet Satiety para Gatos Com Excesso de Peso 1,5kg",144.9,164.99
+2026-11-24 15:16,cobasi,7908248300964,Ração Royal Canin Veterinary Diet Satiety para Gatos Com Excesso de Peso 4 kg,299.89,379.99
+2026-11-24 15:16,cobasi,9003579005187,Ração Úmida Royal Canin Sachê Veterinary Diet Renal Gatos Adultos com Insuficiência Renal 85g,17.99,17.99
+2026-11-24 15:16,cobasi,7908248303057,Ração Royal Canin Gastrointestinal Fibre Response Gatos Adultos 400 g,44.79,44.79
+2026-11-24 15:16,cobasi,7908248301619,"Ração Royal Canin Gastrointestinal Fibre Response Gatos Adultos 1,5 kg",132.88,159.99
+2026-11-24 15:16,cobasi,7908248303064,Ração Royal Canin Gastrointestinal Fibre Response Gatos Adultos 4 kg,355.09,355.09
+2026-11-24 15:16,cobasi,7908248302050,Ração Royal Canin Veterinary Diet Hypoallergenic para Gatos Adultos com Sensibilidades Alimentares 400 g,46.93,46.93
+2026-11-24 15:16,cobasi,7896181215370,"Ração Royal Canin Veterinary Diet Hypoallergenic para Gatos Adultos com Sensibilidades Alimentares 1,5kg",155.52,178.99
+2026-11-24 15:16,cobasi,7908248300995,Ração Royal Canin Veterinary Diet Hypoallergenic para Gatos Adultos com Sensibilidades Alimentares 4 kg,409.41,409.41
+2026-11-24 15:16,cobasi,7908248302197,"Ração Royal Canin Veterinary Diet Gastrointestinal Hydrolysed Protein para Gatos Adultos 1,5kg",151.71,187.99
+2026-11-24 15:16,cobasi,7908248301985,Ração Úmida Royal Canin Sachê Hair e Skin Gatos Adultos 85g,9.9,9.9
+2026-11-24 15:16,cobasi,9003579310182,Ração Úmida Royal Canin Instinctive 7 + Gatos Adultos 85 g,9.9,9.9
+2026-11-24 15:16,cobasi,7896181218692,Ração Royal Canin Super Premium Cat para Gatos Filhotes 1 kg,62.79,62.79
+2026-11-24 15:16,cobasi,7908248302555,"Ração Royal Canin Super Premium Cat para Gatos Filhotes 2,5 kg",144.9,144.9
+2026-11-24 15:16,cobasi,7908248302524,"Ração Royal Canin Super Premium Cat para Gatos Filhotes 7,5 kg",259.08,259.08
+2026-11-24 15:16,cobasi,7896181218708,"Ração Royal Canin Super Premium Cat para Gatos Filhotes 10,1kg",373.99,373.99
+2026-11-24 15:16,cobasi,7896181218609,Ração Royal Canin Super Premium Cat para Gatos Adultos Castrados 1 kg,58.19,58.19
+2026-11-24 15:16,cobasi,7908248302579,"Ração Royal Canin Super Premium Cat para Gatos Adultos Castrados 2,5 kg",134.28,134.28
+2026-11-24 15:16,cobasi,7908248302548,"Ração Royal Canin Super Premium Cat para Gatos Adultos Castrados 7,5 kg",261.99,261.99
+2026-11-24 15:16,cobasi,7896181218623,"Ração Royal Canin Super Premium Cat para Gatos Adultos Castrados 10,1 kg",268.8,329.99
+2026-11-24 15:16,cobasi,7896181218678,Ração Royal Canin Super Premium Cat Vitalidade para Gatos Adultos 1 kg,62.99,62.99
+2026-11-24 15:16,cobasi,7908248302586,"Ração Royal Canin Super Premium Cat Vitalidade para Gatos Adultos 2,5 kg",134.99,134.99
+2026-11-24 15:16,cobasi,7908248302517,"Ração Royal Canin Super Premium Cat Vitalidade para Gatos Adultos 7,5 kg",261.99,261.99
+2026-11-24 15:16,cobasi,7896181218685,"Ração Royal Canin Super Premium Cat Vitalidade para Gatos Adultos 10,1 kg",329.64,329.64
+2026-11-24 15:16,cobasi,7896181215394,"Ração Royal Canin Veterinary Diet Renal para Gatos com Insuficiência Renal 1,5kg",155.31,155.31
+2026-11-24 15:16,cobasi,7908248301008,Ração Royal Canin Veterinary Diet Renal para Gatos com Insuficiência Renal 4 kg,379.99,379.99
+2026-11-24 15:16,cobasi,7908248301022,"Ração Royal Canin Veterinary Diet Renal para Gatos com Insuficiência Renal 10,1 kg",568.69,568.69
+2026-11-24 15:16,cobasi,7908248302043,Ração Royal Canin Veterinary Diet Urinary S/O Gatos com Cálculos Urinários 400 g,47.99,47.99
+2026-11-24 15:16,cobasi,7896181215417,"Ração Royal Canin Veterinary Diet Urinary S/O Gatos com Cálculos Urinários 1,5kg",121.33,155.99
+2026-11-24 15:16,cobasi,7908248300971,Ração Royal Canin Veterinary Diet Urinary S/O Gatos com Cálculos Urinários 4 kg,355.07,355.07
+2026-11-24 15:16,cobasi,7908248301015,"Ração Royal Canin Veterinary Diet Urinary S/O Gatos com Cálculos Urinários 10,1 kg",464.9,574.99
+2026-11-24 15:16,cobasi,7896181213024,Ração Royal Canin Filhotes para Gatos com até 12 meses de Idade 400 g,34.99,40.99
+2026-11-24 15:16,cobasi,7896181213031,"Ração Royal Canin Filhotes para Gatos com até 12 meses de Idade 1,5 kg",114.99,135.99
+2026-11-24 15:16,cobasi,7896181298991,Ração Royal Canin Filhotes para Gatos com até 12 meses de Idade 4 kg,210.99,341.99
+2026-11-24 15:16,cobasi,7908248300919,"Ração Royal Canin Filhotes para Gatos com até 12 meses de Idade 10,1 kg",398.99,553.99
+2026-11-24 15:16,cobasi,7896181217213,Ração Úmida Royal Canin Mother e Babycat 195 g,22.8,22.8
+2026-11-24 15:16,cobasi,7896181218715,Ração Royal Canin Super Premium Cat Beleza da Pelagem para Gatos Adultos 1 kg,62.99,62.99
+2026-11-24 15:16,cobasi,7908248302562,"Ração Royal Canin Super Premium Cat Beleza da Pelagem para Gatos Adultos 2,5 kg",143.99,143.99
+2026-11-24 15:16,cobasi,7908248302531,"Ração Royal Canin Super Premium Cat Beleza da Pelagem para Gatos Adultos 7,5 kg",244.78,244.78
+2026-11-24 15:16,cobasi,7896181218722,"Ração Royal Canin Super Premium Cat Beleza da Pelagem para Gatos Adultos 10,1 kg",352.99,352.99
+2026-11-24 15:16,cobasi,7896181215868,Ração Royal Canin Mother & Babycat 400 g,35.99,40.99
+2026-11-24 15:16,cobasi,7896181215875,"Ração Royal Canin Mother & Babycat 1,5 kg",121.99,141.99
+2026-11-24 15:16,cobasi,7908248300933,Ração Royal Canin Mother & Babycat 4 kg,277.99,348.9
+2026-11-24 15:16,cobasi,7908248301923,Ração Úmida Royal Canin Patê Cuidado Digestivo para Gatos Adultos 85 g,8.79,9.99
+2026-11-24 15:16,cobasi,7908248302029,Ração Royal Canin Veterinary Diet Renal Gatos com Insuficiência Renal 400 g,47.99,47.99
+2026-11-24 15:16,cobasi,618231217700,Fonte Porcelana Cansei de Ser Gato 120 ml,319.99,319.99
+2026-11-24 15:16,cobasi,7908471121947,Pá Higiênica Plástica Cansei de Ser Gato Cinza Único,42.99,42.99
+2026-11-24 15:16,cobasi,7908253607041,Petisco Nugget para Gatos Carne Cansei de Ser Gato 40 g,7.99,7.99
+2026-11-24 15:16,cobasi,7908253611505,Petisco Nugget para Gatos Leite Cansei de Ser Gato 40 g,7.99,7.99
+2026-11-24 15:16,cobasi,7908253607058,Petisco Nugget para Gatos Frango Cansei de Ser Gato 40 g,7.99,7.99
+2026-11-24 15:16,cobasi,7908253611512,Petisco Nugget para Gatos Requeijão Cansei de Ser Gato 40 g,7.99,7.99
+2026-11-24 15:16,cobasi,7908253607065,Petisco Nugget para Gatos Salmão Cansei de Ser Gato 40 g,7.99,7.99
+2026-11-24 15:16,cobasi,618231217724,Refil Filtro Carvão Ativado para Fontes Cansei de Ser Gato Único,29.99,29.99
+2026-11-24 15:16,cobasi,7908471123651,Brinquedo para Gatos Sardinhas de Catnip em Lata Cansei de Ser Gato Único,63.5,63.5
+2026-11-24 15:16,cobasi,7908253604460,Areia Higiênica Biodegradável para Gatos Grãos Finos Milho e Mandioca Cansei de Ser Gato 4 kg,57.99,69.99
+2026-11-24 15:16,cobasi,7908253605641,Areia Higiênica Biodegradável para Gatos Grãos Finos Milho e Mandioca Cansei de Ser Gato 10 kg,139.99,169.99
+2026-11-24 15:16,cobasi,7908253604453,Areia Higiênica Biodegradável para Gatos Grãos Médios Milho e Mandioca Cansei de Ser Gato 4 kg,57.99,69.99
+2026-11-24 15:16,cobasi,7908253605658,Areia Higiênica Biodegradável para Gatos Grãos Médios Milho e Mandioca Cansei de Ser Gato 10 kg,139.99,169.99
+2026-11-24 15:16,cobasi,7896359018895,Comedouro para Gato Azul Sanremo 200 ml,6.9,13.9
+2026-11-24 15:16,cobasi,7896359018901,Comedouro para Gato Rosa Sanremo 200 ml,6.9,13.9
+2026-11-24 15:16,cobasi,7898144560404,Granulado Higiênico Biodegradável ProGato Biobom 3 kg,43.9,43.9
+2026-11-24 15:16,cobasi,7898490096558,Cama de Gato Cat Relax Azul Furacão Pet Único,114.9,114.9
+2026-11-24 15:16,cobasi,7898615850751,Brinquedo Interativo Cat Laser Vermelho Pet Games Único,35.99,44.99
+2026-11-24 15:16,cobasi,7798176423565,"Vermífugo Feline Endospot até 2kg Labyes pipeta de 0,4 ml",74.0,74.0
+2026-11-24 15:16,cobasi,7908405900136,Túnel em Poliéster para Gatos Savana Rosa Único,39.99,39.99
+2026-11-24 15:16,cobasi,7798176423541,"Vermífugo Feline Endospot acima de 5kg Labyes pipeta de 1,2 ml",90.9,90.9
+2026-11-24 15:16,cobasi,7908405900129,Túnel em Poliéster para Gatos Savana Azul Único,39.99,39.99
+2026-11-24 15:16,cobasi,7798176423558,"Vermífugo Feline Endospot de 2 a 5kg Labyes pipeta de 0,8 ml",78.5,78.5
+2026-11-24 15:16,cobasi,7898905706478,Granulado Higiênico Biodegradável Kets Bio-D 3 kg,43.99,43.99
+2026-11-24 15:16,cobasi,7898682046033,Brinquedo Wall Ball Catnip para Gatos Flicks Cinza Único,19.99,19.99
+2026-11-24 15:16,cobasi,7896647110508,Sementes de Grama dos Gatos Topseed Garden 5 g,10.9,10.9
+2026-11-24 15:16,cobasi,7898682046040,Brinquedo Wall Ball para Gatos Flicks Branco Único,19.99,19.99
+2026-11-24 15:16,cobasi,7891106006071,Antipulgas Advocate Gatos entre 4 e 8kg 1 pipeta,127.99,127.99
+2026-11-24 15:16,cobasi,7891106911238,Antipulgas Advocate Gatos entre 4 e 8kg 3 pipetas,238.99,238.99
+2026-11-24 15:16,cobasi,7898752403438,Petisco Origens para Gatos Creminho de Frango 60g,19.99,19.99
+2026-11-24 15:16,cobasi,7896779800643,Comedouro Anti-Formiga Gatos Alvorada Rosa Único,5.9,5.9
+2026-11-24 15:16,cobasi,7898905706560,Granulado Higiênico Biodegradável Mandioca Kets 1 kg,19.99,19.99
+2026-11-24 15:16,cobasi,7898905706546,Granulado Higiênico Biodegradável Mandioca Kets 4 kg,69.99,69.99
+2026-11-24 15:16,cobasi,7898752403445,Petisco Origens para Gatos Creminho de Salmão 60g,19.99,19.99
+2026-11-24 15:16,cobasi,7896779800636,Comedouro Anti-Formiga Gatos Alvorada Azul Único,4.99,5.9
+2026-11-24 15:16,cobasi,7896779800667,Comedouro Anti-Formiga Gatos Alvorada Vermelho Único,5.9,5.9
+2026-11-24 15:16,cobasi,789300043176,Nuggets Salmão para Gatos Adultos Kadi 40 g,5.4,10.9
+2026-11-24 15:16,cobasi,7898043433571,Feliway Classic Difusor Elétrico 48 ml,225.9,347.5
+2026-11-24 15:16,cobasi,7898752404985,Petisco Origens para Gatos Creminho de Atum 60g,19.99,19.99
+2026-11-24 15:16,cobasi,7896647110492,Sementes de Erva dos Gatos Blue Line Topseed Garden Único,10.9,10.9
+2026-11-24 15:16,cobasi,7791432014132,Tea Coleira Antipulgas para Gatos 33 cm,53.9,53.9
+2026-11-24 15:16,cobasi,7898043434189,Feliway Friends Refil do Difusor 48 ml,180.5,277.9
+2026-11-24 15:16,cobasi,7898043433588,Feliway Classic Refil do Difusor 48ml,180.5,277.9
+2026-11-24 15:16,cobasi,7898043433595,Feliway Classic Spray Pulverizador 60 ml,198.5,305.9
+2026-11-24 15:16,cobasi,7898975534599,Comedouro Raso para Gatos Stark Pet Azul Único,19.9,19.9
+2026-11-24 15:16,cobasi,7898682045098,Ração Úmida Joy Gatos Castrados Atum ao Molho 85 g,3.29,3.29
+2026-11-24 15:16,cobasi,7898975534681,Comedouro Ergonômico para Gatos Stark Pet Azul Único,24.9,24.9
+2026-11-24 15:16,cobasi,7898975534698,Comedouro Ergonômico para Gatos Stark Pet Cobre Único,24.9,24.9
+2026-11-24 15:16,cobasi,7898975534643,Comedouro Ergonômico para Gatos Stark Pet Bege Único,24.9,24.9
+2026-11-24 15:16,cobasi,7898615853172,Comedouro Ergonocat Pet Games Bege Único,49.99,49.99
+2026-11-24 15:16,cobasi,7898615853165,Comedouro Ergonocat Pet Games Cinza Único,39.99,49.99
+2026-11-24 15:16,cobasi,7898682045074,Ração Úmida Joy Gatos Adultos Salmão ao Molho 85 g,3.29,3.29
+2026-11-24 15:16,cobasi,7898975534575,Comedouro Raso para Gatos Stark Pet Magenta Único,19.9,19.9
+2026-11-24 15:16,cobasi,7898975534605,Comedouro Raso para Gatos Stark Pet Cobre Único,19.9,19.9
+2026-11-24 15:16,cobasi,7898096853005,Chemital Anti-helmíntico para Gatos 4 comprimidos,15.3,21.9
+2026-11-24 15:16,cobasi,7891000296196,Ração Úmida Purina Fancy Feast Gatos Adultos Casserole Atum e Salmão 85 g,6.09,6.09
+2026-11-24 15:16,cobasi,7891000295915,Ração Úmida Purina Fancy Feast Gatos Adultos Casserole Frango e Peru 85 g,6.09,6.09
+2026-11-24 15:16,cobasi,7898975534551,Comedouro Raso para Gatos Stark Pet Bege Único,19.9,19.9
+2026-11-24 15:16,cobasi,7898682045081,Ração Úmida Joy Gatos Adultos Frango ao Molho 85 g,3.29,3.29
+2026-11-24 15:16,cobasi,7898682045067,Ração Úmida Joy Gatos Adultos Carne ao Molho 85 g,3.29,3.29
+2026-11-24 15:16,cobasi,7898975534667,Comedouro Ergonômico para Gatos Stark Pet Magenta Único,24.9,24.9
+2026-11-24 15:16,cobasi,7891106001656,Drontal Vermicida para Gatos Elanco 4 comprimidos,48.9,69.99
+2026-11-24 15:16,cobasi,7891000426784,Ração Úmida Fancy Feast Supremo Carne 75 g,6.09,6.09
+2026-11-24 15:16,cobasi,7896029046883,Petisco Sheba Cremoso para Gatos Adultos Frango e Salmão 24 g,14.99,14.99
+2026-11-24 15:16,cobasi,7898604437079,"Ração N&amp;D Spirulina Gatos Filhotes Tilápia 1,5 kg",213.5,213.5
+2026-11-24 15:16,cobasi,7896195867040,Suplemento Carboxin Organnact 8 g,13.9,13.9
+2026-11-24 15:16,cobasi,7896029046869,Petisco Sheba Cremoso para Gatos Adultos Atum com Salmão e Frango com Camarão 48 g,17.99,19.99
+2026-11-24 15:16,cobasi,7896273809579,"Granulado Higiênico Biodegradável para Gatos Pipicat Bio Cereais 2,2 kg",42.99,42.99
+2026-11-24 15:16,cobasi,7898960301434,Álcool Gel para Pets All Pata CatMyPet 200 ml,42.9,42.9
+2026-11-24 15:16,cobasi,7908405904424,Brinquedo para Gatos Cat Laser Savana Pet Único,24.99,24.99
+2026-11-24 15:16,cobasi,7898053772578,"Antipulgas e Carrapatos Frontline Topspot Gatos 0,5 ml",32.29,37.99
+2026-11-24 15:16,cobasi,7891106006064,Antipulgas Advocate Gatos até 4 kg 1 pipeta,114.99,114.99
+2026-11-24 15:16,cobasi,7891106911221,Antipulgas Advocate Gatos até 4 kg 3 pipetas,218.99,218.99
+2026-11-24 15:16,cobasi,5060180390327,Extensor para Porta Pet Door Sure PetCare Único,79.9,79.9
+2026-11-24 15:16,cobasi,7908405904462,Varinha para Gatos com Luz e Laser Verde Savana Pet Único,79.99,79.99
+2026-11-24 15:16,cobasi,7898053772905,"Antipulgas e Carrapatos Frontline Plus para Gatos 0,5 ml",52.69,61.99
+2026-11-24 15:16,cobasi,7908405904455,Varinha para Gatos com Luz e Laser Rosa Savana Pet Único,79.99,79.99
+2026-11-24 15:16,cobasi,7896112402190,Suplemento Beneflora Vet Avert 14 g,59.9,85.99
+2026-11-24 15:16,cobasi,7898574025238,Shampoo 1 Mês+ Banho do Aconchego Soft Care Baby 120 ml,45.9,45.9
+2026-11-24 15:16,cobasi,7901001901972,Suplemento Alimentar Soft Care Serenity Pet Tabs 30 tabletes,138.9,138.9
+2026-11-24 15:16,cobasi,7898574029489,Suplemento Alimentar Soft Care Nuti Bioflora Pet Tabs 30 tabletes,136.9,136.9
+2026-11-24 15:16,cobasi,7908471121909,Bandeja Higiênica Cansei de Ser Gato Cinza Único,219.99,219.99
+2026-11-24 15:16,cobasi,7908471121893,Bandeja Higiênica Cansei de Ser Gato Laranja Único,219.99,219.99
+2026-11-24 15:16,cobasi,7908471122685,Tapete Coletor de Areia Preto Cansei de Ser Gato Único,119.99,119.99
+2026-11-24 15:16,cobasi,7908471121954,Pá Higiênica Plástica Cansei de Ser Gato Laranja Único,42.99,42.99
+2026-11-24 15:16,cobasi,7908253609939,Brinquedo para Gatos Cata Petisco Cansei de ser Gato Único,32.5,32.5
+2026-11-24 15:16,cobasi,618341928909,Brinquedo Matatabi Wood para Gatos Cansei de Ser Gato 8 Unidades,54.99,54.99
+2026-11-24 15:16,cobasi,7908471123675,Brinquedo para Gatos Fatia de Pizza com Catnip Cansei de Ser Gato Único,29.99,29.99
+2026-11-24 15:16,cobasi,7898700290769,Petisco Bonnus para Gatos Salmão Everest 80 g,15.5,15.5
+2026-11-24 15:16,cobasi,0618341929548,Brinquedo Laser para Gatos Fuzz Vermelho Único,24.99,24.99
+2026-11-24 15:16,cobasi,7908253608420,Brinquedo Laser para Gatos Fuzz Cinza Único,24.99,24.99
+2026-11-24 15:16,cobasi,0618341929555,Brinquedo Laser para Gatos Fuzz Azul Único,24.99,24.99
+2026-11-24 15:16,cobasi,40141897015,Comedouro Flex Gourmet Plast Pet Terra Vermelha 650 ml,42.9,42.9
+2026-11-24 15:16,cobasi,40141897053,"Comedouro Flex Gourmet Plast Pet Terra Vermelha 1,5 L",60.9,60.9
+2026-11-24 15:16,cobasi,40141897008,Comedouro Flex Gourmet Plast Pet Verde 650 ml,42.9,42.9
+2026-11-24 15:16,cobasi,40141897046,"Comedouro Flex Gourmet Plast Pet Verde 1,5 L",60.9,60.9
+2026-11-24 15:16,cobasi,7898960782448,Areia Higiênica Biodegradável Milho e Mandioca Grãos Grossos Viva Verde 4 kg,59.49,69.99
+2026-11-24 15:16,cobasi,7898960782479,Areia Higiênica Biodegradável Milho e Mandioca Grãos Grossos Viva Verde 10 kg,169.99,169.99
+2026-11-24 15:16,cobasi,7898960782356,Areia Higiênica Biodegradável Milho e Mandioca Grãos Mistos Viva Verde 4 kg,69.9,69.9
+2026-11-24 15:16,cobasi,7898960782462,Areia Higiênica Biodegradável Milho e Mandioca Grãos Mistos Viva Verde 10 kg,144.49,169.99
+2026-11-24 15:16,cobasi,7898960782349,Areia Higiênica Biodegradável Milho e Mandioca Grãos Finos Viva Verde 4 kg,69.9,69.9
+2026-11-24 15:16,cobasi,7898960782455,Areia Higiênica Biodegradável Milho e Mandioca Grãos Finos Viva Verde 10 kg,144.49,169.99
+2026-11-24 15:16,cobasi,789300043220,Areia Higiênica Kadi Biodegradável para Gatos Milho e Mandioca Grãos Finos 4 kg,39.99,54.99
+2026-11-24 15:16,cobasi,7896035900629,Areia Higiênica para Gatos Biodegradável Mandioca Bob Esconde 4 kg,59.9,59.9
+2026-11-24 15:16,cobasi,7908471133155,Areia Higiênica Biodegradável Fresh para Gatos Milho e Mandioca Grãos Finos 4 kg,49.99,59.99
+2026-11-24 15:16,cobasi,7908471133131,Areia Higiênica Biodegradável Fresh para Gatos Milho e Mandioca Grãos Finos 10 kg,119.99,144.99
+2026-11-24 15:16,cobasi,7908471133162,Areia Higiênica Biodegradável Fresh para Gatos Milho e Mandioca Grãos Médios 4 kg,49.99,59.99
+2026-11-24 15:16,cobasi,7908471133148,Areia Higiênica Biodegradável Fresh para Gatos Milho e Mandioca Grãos Médios 10 kg,119.99,144.99
+2026-11-24 15:16,cobasi,7898905706690,Areia Higiênica Biodegradável Kets Natureza Viva para Gatos Milho e Mandioca Grãos Finos 4 kg,60.9,67.99
+2026-11-24 15:16,cobasi,7898905706706,Areia Higiênica Biodegradável Kets Natureza Viva para Gatos Milho e Mandioca Grãos Finos 10 kg,164.99,164.99
+2026-11-24 15:16,cobasi,7898905706676,Areia Higiênica Biodegradável Kets Natureza Viva para Gatos Milho e Mandioca Grãos Médios 4 kg,60.9,67.99
+2026-11-24 15:16,cobasi,7898905706683,Areia Higiênica Biodegradável Kets Natureza Viva para Gatos Milho e Mandioca Grãos Médios 10 kg,164.99,164.99
+2026-11-24 15:16,cobasi,7898905706652,Areia Higiênica Biodegradável Kets Natureza Viva para Gatos Milho e Mandioca Grãos Grossos 4 kg,60.9,67.99
+2026-11-24 15:16,cobasi,7898905706669,Areia Higiênica Biodegradável Kets Natureza Viva para Gatos Milho e Mandioca Grãos Grossos 10 kg,164.99,164.99
+2026-11-24 15:16,cobasi,7897907614224,Areia para Gato Katbom Clinical Granulado Higiênico Biodegradável 3 kg,39.5,56.9
+2026-11-24 15:16,cobasi,7897907600326,Areia para Gato Katbom Natural Granulado Higiênico Biodegradável 3 kg,35.9,51.9
+2026-11-24 15:16,cobasi,7897907606175,Areia para Gato Katbom Natural Granulado Higiênico Biodegradável 6 kg,64.9,92.9
+2026-11-24 15:16,cobasi,7897907604386,Areia para Gato Katbom Natural Granulado Higiênico Biodegradável Capim Limão 3 kg,35.9,51.9
+2026-11-24 15:16,cobasi,7897907606182,Areia para Gato Katbom Natural Granulado Higiênico Biodegradável Capim Limão 6 kg,64.9,92.9
+2026-11-24 15:16,cobasi,7898682043971,Areia Higiênica MyHug Biodegradável Milho e Mandioca Grânulos Finos 4 kg,54.99,64.99
+2026-11-24 15:16,cobasi,7898682045401,Areia Higiênica MyHug Biodegradável Milho e Mandioca Grânulos Finos 10 kg,137.99,159.99
+2026-11-24 15:16,cobasi,7898682043988,Areia Higiênica MyHug Biodegradável Milho e Mandioca Grânulos Grossos 4 kg,54.99,64.99
+2026-11-24 15:16,cobasi,7898682045418,Areia Higiênica MyHug Biodegradável Milho e Mandioca Grânulos Grossos 10 kg,137.99,159.99
+2026-11-24 15:16,cobasi,7898675440084,Granulado Higiênico de Tofu Biodegradável Wicat para Gatos de Pêssego 2.1 kg,53.99,53.99
+2026-11-24 15:16,cobasi,7898675440244,Granulado Higiênico de Tofu Biodegradável Wicat para Gatos Neutro 2.1 kg,53.99,53.99
+2026-11-24 15:16,cobasi,7898675440077,Granulado Higiênico de Tofu Biodegradável Wicat para Gatos Carvão de Bambu 2.1 kg,53.99,53.99
+2026-11-24 15:16,cobasi,7898943864307,Areia Higiênica Cat Smart Bio Mandioca para Gatos Grãos Médios 4 kg,64.9,64.9
+2026-11-24 15:16,cobasi,7898943864314,Areia Higiênica Cat Smart Bio Mandioca para Gatos Grãos Finos 4 kg,64.9,64.9
+2026-11-24 15:16,cobasi,7898682042752,Granulado Higiênico Biodegradável para Gatos MyHug 3 kg,39.99,39.99
+2026-11-24 15:16,cobasi,7896273806219,"Areia Pipicat Bianco para Gatos 1,8 kg",26.99,26.99
+2026-11-24 15:16,cobasi,7896273800033,Areia Pipicat Classic para Gatos 4 kg,19.99,19.99
+2026-11-24 15:16,cobasi,7896273805878,Areia Pipicat Classic para Gatos 12 kg,38.99,51.99
+2026-11-24 15:16,cobasi,7896273809029,Areia Pipicat Classic para Gatos 20 kg,77.9,77.9
+2026-11-24 15:16,cobasi,7898905706324,Areia Higiênica Kets para Gatos 4 kg + 250g grátis,10.99,10.99
+2026-11-24 15:16,cobasi,7898905706232,Areia Higiênica Kets para Gatos 12 kg,30.99,30.99
+2026-11-24 15:16,cobasi,7896273805182,Areia Pipicat Perfumada Floral para Gatos 4 kg,23.48,23.48
+2026-11-24 15:16,cobasi,7896273808244,Areia Pipicat Perfumada Floral para Gatos 12 kg,68.99,68.99
+2026-11-24 15:16,cobasi,7896273809005,Areia Pipicat Perfumada Floral para Gatos 20 kg,95.9,95.9
+2026-11-24 15:16,cobasi,7898274860023,Areia Higiênica para Gatos Carecat Tradicional 4 kg,11.9,14.9
+2026-11-24 15:16,cobasi,7898274860009,Areia Higiênica para Gatos Carecat Tradicional 10 kg,26.9,33.9
+2026-11-24 15:16,cobasi,7896273808664,Areia Pipicat Ultra Dry para Gatos 4 kg,67.99,67.99
+2026-11-24 15:16,cobasi,7896273808930,Areia Pipicat Ultra Dry para Gatos 12 kg,179.9,179.9
+2026-11-24 15:16,cobasi,7896273805786,Areia Pipicat Perfumada Campestre para Gatos 4 kg,25.99,25.99
+2026-11-24 15:16,cobasi,7898274860030,Areia Higiênica para Gatos Carecat Perfumada 4 kg,13.2,18.9
+2026-11-24 15:16,cobasi,7898274860238,Areia Higiênica para Gatos Carecat Perfumada 10 kg,30.9,44.9
+2026-11-24 15:16,cobasi,7896273808909,Areia Pipicat Ultra Light para Gatos 2 kg,58.99,58.99
+2026-11-24 15:16,cobasi,7896273807711,Areia Pipicat Multi-Cat Odor Block para Gatos 12 kg,46.99,58.99
+2026-11-24 15:16,cobasi,7896273809593,Areia Pipicat Multi-Cat Odor Block para Gatos 4 kg,19.99,19.99
+2026-11-24 15:16,cobasi,7898682043063,"Areia Sílica MyHug Regular para Gatos 1,8 kg",39.99,39.99
+2026-11-24 15:16,cobasi,7898912289049,Areia para Gatos Like Cat Granulado Higiênico de Madeira 2 kg,17.5,17.5
+2026-11-24 15:16,cobasi,7898122890707,Areia para Gatos Like Cat Granulado Higiênico de Madeira 10 kg,68.5,68.5
+2026-11-24 15:16,cobasi,7898905706300,Areia Higiênica Kets Premium Alfa Pet 4 kg,16.99,16.99
+2026-11-24 15:16,cobasi,7898905706355,Areia Higiênica Kets Premium Alfa Pet 12 kg,47.99,47.99
+2026-11-24 15:16,cobasi,7898905706584,Areia Higiênica Kets Gatíssimo sem Perfume 4 kg,11.69,12.99
+2026-11-24 15:16,cobasi,7898905706591,Areia Higiênica Kets Gatíssimo sem Perfume 12 kg,31.44,36.99
+2026-11-24 15:16,cobasi,7898682044862,Areia Higiênica Mineral Multigrãos Myhug 12 kg,45.9,45.9
+2026-11-24 15:16,cobasi,7898682044855,Areia Higiênica Mineral Multigrãos Myhug 4 kg,15.99,15.99
+2026-11-24 15:16,cobasi,7898905706362,Areia Higiênica Kets Premium Perfumada 4 kg,18.99,18.99
+2026-11-24 15:16,cobasi,7898905706379,Areia Higiênica Kets Premium Perfumada 12 kg,53.99,53.99
+2026-11-24 15:16,cobasi,7898905706294,Granulado Higiênico Kets Madeira para Gatos 10 kg,99.99,99.99
+2026-11-24 15:16,cobasi,7898682043056,"Areia Sílica MyHug Micro Cristais 1,8 kg",39.99,39.99
+2026-11-24 15:16,cobasi,7898905706034,Areia Higiênica Premium Gatíssimo 4 kg,13.49,14.99
+2026-11-24 15:16,cobasi,7898905706331,Areia Higiênica Premium Gatíssimo 12 kg,33.99,39.99
+2026-11-24 15:16,cobasi,7898905706409,Areia Higiênica Kets Finíssimo 4 kg,29.99,29.99
+2026-11-24 15:16,cobasi,7898905706393,Areia Higiênica Kets Finíssimo 8 kg,55.99,55.99
+2026-11-24 15:16,cobasi,7908173501795,Tapete Coletor de Areia São Benedito Preto Único,96.9,96.9
+2026-11-24 15:16,cobasi,7908173501788,Tapete Coletor de Areia São Benedito Amarelo Único,28.9,96.9
+2026-11-24 15:16,cobasi,7898960301670,Banheiro Descartável Gatotô com Areia CatMyPet 300 g,14.99,14.99
+2026-11-24 15:16,cobasi,7898641570777,Eliminador de Odores e Manchas Enzimac Gatos 150 ml,49.9,62.9
+2026-11-24 15:16,cobasi,7898641570753,Eliminador de Odores e Manchas Enzimac Gatos 500 ml,115.9,144.9
+2026-11-24 15:16,cobasi,7899669608046,Tapete para Caixa de Areia Jambo M,157.9,157.9
+2026-11-24 15:16,cobasi,7798377140018,Granulado Higiênico para Gatos Pipicat Ultra Control 4 kg,60.99,60.99
+2026-11-24 15:16,cobasi,7896273809722,Granulado Higiênico para Gatos Pipicat Chá Branco 4 kg,25.9,25.9
+2026-11-24 15:16,cobasi,7908163648110,Banheiro para Gatos Glamour Furacão Pet Preto 20 L,97.9,97.9
+2026-11-24 15:16,cobasi,7908163638111,Banheiro para Gatos Glamour Furacão Pet Azul 20 L,28.9,97.9
+2026-11-24 15:16,cobasi,7908163658119,Banheiro para Gatos Glamour Furacão Pet Rosa 20 L,28.9,97.9
+2026-11-24 15:16,cobasi,7908173504109,Tapete Coletor de Areia Tapecats Baby São Benedito Amarelo Único,20.5,68.9
+2026-11-24 15:16,cobasi,7908173504116,Tapete Coletor de Areia Tapecats Baby São Benedito Preto Único,68.9,68.9
+2026-11-24 15:16,cobasi,7898144560282,Granulado Higiênico de Pinus ProGato 5 kg,36.99,36.99
+2026-11-24 15:16,cobasi,7908163625319,Kit Higiene para Gatos Joy Furacão Pet Azul Único,42.9,42.9
+2026-11-24 15:16,cobasi,7798185900408,Granulado Higiênico Kets Criadores White 20 kg,299.99,299.99
+2026-11-24 15:16,cobasi,7798185900316,"Granulado Higiênico Kets White Sílica Natural 1, 8 kg",27.99,27.99
+2026-11-24 15:16,cobasi,7798185900415,"Granulado Higiênico Kets White Sílica Natural Extra Fino 1, 8 kg",27.99,27.99
+2026-11-24 15:16,cobasi,7898144560015,"Granulado Higiênico ProGato Tradicional 1,8kg",23.9,23.9
+2026-11-24 15:16,cobasi,7898144560084,"Granulado Higiênico ProGato Tradicional 3,6kg",45.9,45.9
+2026-11-24 15:16,cobasi,7896779800070,Bandeja Higiênica Alvorada Azul Único,30.51,30.51
+2026-11-24 15:16,cobasi,7896779800087,Bandeja Higiênica Alvorada Rosa Único,30.51,30.51
+2026-11-24 15:16,cobasi,7896779800100,Bandeja Higiênica Alvorada Vermelha Único,30.51,30.51
+2026-11-24 15:16,cobasi,7898144560244,"Granulado Higiênico ProGato Sensitive 1,8kg",24.9,24.9
+2026-11-24 15:16,cobasi,7896779814923,Bandeja Higiênica Alvorada Cinza Capuccino Único,119.99,119.99
+2026-11-24 15:16,cobasi,7898639840165,Bandeja Higiênica Jumbox Fuzz Bege Único,169.99,169.99
+2026-11-24 15:16,cobasi,7898713084485,Bandeja Higiênica Jumbox Fuzz Azul Único,169.99,169.99
+2026-11-24 15:16,cobasi,7898639840219,Pá Higiênica Power Clean Fuzz Bege Único,21.99,21.99
+2026-11-24 15:16,cobasi,7898713084478,Bandeja Higiênica Jumbox Fuzz Cinza Único,169.99,169.99
+2026-11-24 15:16,cobasi,7898639840172,Bandeja Higiênica Jumbox Fuzz Salmão Único,169.99,169.99
+2026-11-24 15:16,cobasi,7898639840189,Pá Higiênica Power Clean Fuzz Azul Único,20.99,20.99
+2026-11-24 15:16,cobasi,7898639840196,Pá Higiênica Power Clean Fuzz Cinza Único,20.99,20.99
+2026-11-24 15:16,cobasi,7898639840202,Pá Higiênica Power Clean Fuzz Salmão Único,20.99,20.99
+2026-11-24 15:16,cobasi,7898682044947,Granulado Higiênico de Madeira MyHug 5 kg,29.99,29.99
+2026-11-24 15:16,cobasi,7898682044930,Granulado Higiênico de Madeira MyHug 10 kg,59.99,59.99
+2026-11-24 15:16,cobasi,7898144560367,Granulado Higiênico Aglomerado ProGato Premium 4kg,49.9,49.9
+2026-11-24 15:16,cobasi,7898144560374,Granulado Higiênico Aglomerado ProGato Super Premium 4 kg,52.5,52.5
+2026-11-24 15:16,cobasi,7898917917121,"Granulado Higiênico Cat Mais Sensitive Petmais 3,6 kg",44.9,44.9
+2026-11-24 15:16,cobasi,7898490092147,Bandeja Higiênica Classic Azul Furacão Pet Único,33.5,33.5
+2026-11-24 15:16,cobasi,7898490097821,Bandeja Higiênica Furba Preta Furacão Pet Único,47.5,158.5
+2026-11-24 15:16,cobasi,7898490097845,Bandeja Higiênica Furba Rosa Furacão Pet Único,47.5,158.5
+2026-11-24 15:16,cobasi,7898490097814,Bandeja Higiênica Furba Azul Furacão Pet Único,158.5,158.5
+2026-11-24 15:16,cobasi,7908163642415,Banheiro Cat Toalete Furacão Pet Vermelho Único,191.25,212.5
+2026-11-24 15:16,cobasi,7898917917459,"Granulado Higiênico Cat Mais Prático Petmais 1,8kg",22.9,22.9
+2026-11-24 15:16,cobasi,7898908940978,"Granulado Higiênico Cat Mais Prático Petmais 7,2kg",71.91,79.9
+2026-11-24 15:16,cobasi,7898144560473,Granulado Higiênico Progato Premium 10 kg,108.9,108.9
+2026-11-24 15:16,cobasi,7908163632416,Banheiro Cat Toalete Furacão Pet Verde Único,212.5,212.5
+2026-11-24 15:16,cobasi,7908163622417,Banheiro Cat Toalete Furacão Pet Rosa Único,212.5,212.5
+2026-11-24 15:16,cobasi,7908163612418,Banheiro Cat Toalete Furacão Pet Azul Único,191.25,212.5
+2026-11-24 15:16,cobasi,7898144560879,"Granulado Higiênico ProGato Alerta 1,8 kg",48.5,48.5
+2026-11-24 15:16,cobasi,7898144560909,Granulado Higiênico Progato Light Weight 4 kg,52.9,52.9
+2026-11-24 15:16,cobasi,7898490093694,Pá Higiênica Plástica Furacão Pet Rosa Único,8.9,8.9
+2026-11-24 15:16,cobasi,7908163640015,Banheira para Gato Classic Plus Furacão Pet Rosa Único,103.5,103.5
+2026-11-24 15:16,cobasi,7908163610018,Banheira para Gato Classic Plus Furacão Pet Azul Único,103.5,103.5
+2026-11-24 15:16,cobasi,7908163620017,Banheira para Gato Classic Plus Furacão Pet Preta Único,103.5,103.5
+2026-11-24 15:16,cobasi,7898490092918,Pá Higiênica Plástica Furacão Pet Preta Único,6.9,6.9
+2026-11-24 15:16,cobasi,7898490093663,Pá Higiênica Plástica Furacão Pet Azul Único,6.9,6.9
+2026-11-24 15:16,cobasi,789300043237,Areia Higiênica Kadi Biodegradável para Gatos Milho e Mandioca Grãos Mistos 4 kg,54.99,54.99
+2026-11-24 15:16,cobasi,7896029046784,Petisco Sheba Cremoso para Gatos Adultos Atum 24 g,13.49,14.99
+2026-11-24 15:16,cobasi,7896029046807,Petisco Sheba Cremoso para Gatos Adultos Atum 48 g,19.9,19.9
+2026-11-24 15:16,cobasi,7896029046821,Petisco Sheba Cremoso para Gatos Atum e Atum com Camarão 48 g,17.99,19.99
+2026-11-24 15:16,cobasi,7896029017630,Ração Úmida Sheba Gatos Adultos Sachê Frango Assado 85 g,5.49,5.49
+2026-11-24 15:16,cobasi,7896029017647,Ração Úmida Sheba Gatos Adultos Sachê Carne ao Molho 85 g,5.49,5.49
+2026-11-24 15:16,cobasi,7896029017616,Ração Úmida Sheba Gatos Adultos Sachê Atum Marinado 85 g,5.49,5.49
+2026-11-24 15:16,cobasi,7896029017661,Ração Úmida Sheba Gatos Filhotes Sachê Atum Marinado 85 g,5.49,5.49
+2026-11-24 15:16,cobasi,7896029017654,Ração Úmida Sheba Gatos Adultos Sachê Salmão ao Molho 85 g,4.94,5.49
+2026-11-24 15:16,cobasi,7896029017678,Ração Úmida Sheba Gatos Filhotes Sachê Carne ao Molho 85 g,4.94,5.49
+2026-11-24 15:16,cobasi,7896029046845,Petisco Sheba Cremoso para Gatos Frango e Frango com Peixe Branco 48 g,19.9,19.9
+2026-11-24 15:16,cobasi,0040141894458,Colher para Petisco Cremoso para Gatos Plastpet Cinza Único,15.9,19.9
+2026-11-24 15:16,cobasi,0040141894410,Colher para Petisco Cremoso para Gatos Plastpet Azul Tiffany Único,15.9,19.9
+2026-11-24 15:16,cobasi,7896273804147,Petisco Gatos Kelcat Snacks Salmão 40 g,7.99,7.99
+2026-11-24 15:16,cobasi,7896273804154,Petisco Gatos Kelcat Snacks Atum 40 g,7.99,7.99
+2026-11-24 15:16,cobasi,7896029047392,Petisco Optimum Gatos Adultos Pele e Pelo Salmão e Vegetais 80 g,9.99,9.99
+2026-11-24 15:16,cobasi,7908815500278,Petisco para Gatos Hello Kitty Pato Wow 50 g,20.9,27.9
+2026-11-24 15:16,cobasi,7896029047378,Petisco Optimum Gatos Adultos Anti Bola de Pelo Carne e Linhaça 80 g,9.99,9.99
+2026-11-24 15:16,cobasi,7898701095967,Petisco Just Cubos de Salmão para Gatos 75 g,24.5,24.5
+2026-11-24 15:16,cobasi,7898701096001,Petisco Just Cubos de Salmão para Gatos 55 g,19.9,19.9
+2026-11-24 15:16,cobasi,7898626403601,Petisco Pet Nutrition Vie para Gatos Frango com Cranberry 30 g,12.5,12.5
+2026-11-24 15:16,cobasi,7896029021781,Petisco Whiskas Pelo Saudável para Gatos Adultos 40g,12.49,12.49
+2026-11-24 15:16,cobasi,7898626403588,Petisco Pet Nutrition Vie para Gatos Salmão com Maracujá 30 g,12.5,12.5
+2026-11-24 15:16,cobasi,7898963557708,Petisco Gourmet para Gatos Frango e Catnip Wow 50 g,21.6,28.9
+2026-11-24 15:16,cobasi,7898963557289,Petisco Gourmet para Gatos Lombinho Crocante Wow 50 g,21.6,28.9
+2026-11-24 15:16,cobasi,7898963557302,Petisco Gourmet para Gatos Lombinho e Cúrcuma Wow 50 g,28.9,28.9
+2026-11-24 15:16,cobasi,7898963557210,Petisco Gourmet para Gatos Frango e Alecrim Wow 50 g,20.9,27.9
+2026-11-24 15:16,cobasi,7898963557197,Petisco Gourmet para Gatos Frango Crocante Wow 50 g,20.9,27.9
+2026-11-24 15:16,cobasi,7898963557234,Petisco Gourmet para Gatos Frango e Cúrcuma Wow 50 g,20.9,27.9
+2026-11-24 15:16,cobasi,7896273809678,Petisco Kelcat Snack Carne para Gatos 40 g,7.9,7.9
+2026-11-24 15:16,cobasi,7896273809661,Petisco Kelcat Snack Frango para Gatos 40 g,7.9,7.9
+2026-11-24 15:16,cobasi,7896029021798,Petisco Whiskas Temptations Anti Bola de Pelo Gatos Adultos 40 g,12.49,12.49
+2026-11-24 15:16,cobasi,7896029021804,Petisco Whiskas Temptations Anti Bola de Pelo Gatos Adultos 80g,19.9,19.9
+2026-11-24 15:16,cobasi,7896273809685,Petisco Kelcat Stick Protein Carne para Gatos 30 g,7.9,7.9
+2026-11-24 15:16,cobasi,0855958006570,Petisco Churu Galinha para Gatos 56 g,19.99,24.99
+2026-11-24 15:16,cobasi,7891000247501,Petisco DentaLife Gatos Adultos 40 g,8.99,9.99
+2026-11-24 15:16,cobasi,7896273809692,Petisco Kelcat Stick Protein Frango para Gatos 30 g,7.9,7.9
+2026-11-24 15:16,cobasi,7908815500292,Petisco Weggs para Gatos Hello Kitty Pato e Catnip Wow 1 unidade,11.1,14.9
+2026-11-24 15:16,cobasi,7898963557784,Petisco Weggs para Gatos Hello Kitty Frango e Catnip Wow 1 unidade,10.8,14.5
+2026-11-24 15:16,cobasi,0855958006662,Petisco Churu Atum e Salmão para Gatos 56 g,19.99,24.99
+2026-11-24 15:16,cobasi,0855958006693,Petisco Churu para Gatos Galinha e Caranguejo 56 g,19.99,24.99
+2026-11-24 15:16,cobasi,7896029028636,Petisco Dreamies Queijo para Gatos Adultos 40 g,6.99,6.99
+2026-11-24 15:16,cobasi,0855958006686,Petisco Churu Galinha e Camarão para Gatos 56 g,19.99,24.99
+2026-11-24 15:16,cobasi,7908474702600,Petisco Cremoso Nutrisco para Gatos Atum 56 g,21.59,23.99
+2026-11-24 15:16,cobasi,7898682045838,Petisco Joy Nuggets para Gatos Catnip 85 g,9.59,9.59
+2026-11-24 15:16,cobasi,7898682045821,Petisco Joy Nuggets para Gatos Frango 85 g,9.59,9.59
+2026-11-24 15:16,cobasi,7898682045814,Petisco Joy Nuggets para Gatos Carne 85 g,9.59,9.59
+2026-11-24 15:16,cobasi,7896029028414,Petisco Dreamies para Gatos Adultos Carne Tentadora 40 g,6.99,6.99
+2026-11-24 15:16,cobasi,7896029021743,Petisco Dreamies para Gatos Adultos Carne Tentadora 80 g,10.34,11.49
+2026-11-24 15:16,cobasi,7896029021767,Petisco Dreamies para Gatos Adultos Carne Tentadora 150 g,15.92,17.69
+2026-11-24 15:16,cobasi,7908474702693,Petisco Cremoso Nutrisco para Gatos Atum e Bacalhau 56 g,21.59,23.99
+2026-11-24 15:16,cobasi,7908474702679,Petisco Cremoso Nutrisco para Gatos Atum e Caranguejo 56 g,21.59,23.99
+2026-11-24 15:16,cobasi,7898959982491,Petisco Joy Snacks para Gatos Adultos Frango 85g,10.9,10.9
+2026-11-24 15:16,cobasi,7898959982484,Petisco Joy Snacks para Gatos Adultos Carne 85g,10.9,10.9
+2026-11-24 15:16,cobasi,0855958006556,Petisco Churu Cremoso Atum para Gatos 56 g,19.99,24.99
+2026-11-24 15:16,cobasi,7896029028438,Petisco Dreamies Frango para Gatos Adultos 40 g,6.99,6.99
+2026-11-24 15:16,cobasi,7896029021569,Petisco Dreamies Salmão Irresistível Gatos Adultos 40g,6.99,6.99
+2026-11-24 15:16,cobasi,7896029021750,Petisco Dreamies Salmão Irresistível Gatos Adultos 80g,10.34,11.49
+2026-11-24 15:16,cobasi,0855958006679,Petisco Churu Galinha e Queijo para Gatos 56 g,19.99,24.99
+2026-11-24 15:16,cobasi,0855958006563,Petisco Churu Atum e Galinha para Gatos 56 g,19.99,24.99
+2026-11-24 15:16,cobasi,7908474702617,Petisco Cremoso Nutrisco para Gatos Frango 56 g,21.59,23.99
+2026-11-24 15:16,cobasi,7891000407196,Petisco Friskies Party Mix Gatos Adultos Frango 40 g,6.47,7.19
+2026-11-24 15:16,cobasi,7891000407189,Petisco Friskies Party Mix Gatos Adultos Carne 40 g,7.19,7.19
+2026-11-24 15:16,cobasi,7891000406960,Petisco Friskies Party Mix Gatos Adultos Salmão 40 g,6.47,7.19
+2026-11-24 15:16,cobasi,7908474702624,Petisco Cremoso Nutrisco para Gatos Atum e Salmão 56 g,21.59,23.99
+2026-11-24 15:16,cobasi,7908474702709,Petisco Cremoso Nutrisco para Gatos Atum e Camarão 56 g,21.59,23.99
+2026-11-24 15:16,cobasi,7898959982507,Petisco Joy Snacks para Gatos Adultos Queijo 85g,10.9,10.9
+2026-11-24 15:16,cobasi,7896447101416,Petisco Bilisko Snacks Gato Carne 45 g,6.19,6.19
+2026-11-24 15:16,cobasi,7898682045845,Petisco Joy Nuggets para Gatos Salmão e Atum 85 g,9.59,9.59
+2026-11-24 15:16,cobasi,7908474702686,Petisco Cremoso Nutrisco para Gatos Frango e Caranguejo 56 g,21.59,23.99
+2026-11-24 15:16,cobasi,7896447101423,Petisco Bilisko Snacks Gato Peixe 45 g,6.19,6.19
+2026-11-24 15:16,cobasi,7898959982279,Petisco Super Premium Cats 3 em 1 Nats 60g,14.99,14.99
+2026-11-24 15:16,cobasi,7897348201724,Ração Úmida Premier Orgânico para Gatos Adultos Frango 70 g,7.99,7.99
+2026-11-24 15:16,cobasi,7908253611475,Snack Disfarça Comprimidos Happy Med para Gatos 36 g,25.99,25.99
+2026-11-24 15:16,cobasi,7898682043940,Petisco Origem Natural Topper Carne Desidratada 80 g,9.9,19.9
+2026-11-24 15:16,cobasi,7898682043964,Petisco Origem Natural Topper Mix Desidratado 80 g,9.9,19.9
+2026-11-24 15:16,cobasi,7898682043957,Petisco Origem Natural Topper Frango Desidratado 80 g,9.9,19.9
+2026-11-24 15:16,cobasi,789300043183,Nuggets Catnip para Gatos Adultos Kadi 40 g,5.4,10.9
+2026-11-24 15:16,cobasi,789300043169,Nuggets Atum para Gatos Adultos Kadi 40 g,5.4,10.9
+2026-11-24 15:16,cobasi,7898682046194,Ração Úmida Joy Patê para Gatos Peixe 280 g,11.99,11.99
+2026-11-24 15:16,cobasi,7898682046187,Ração Úmida Joy Patê para Gatos Frango 280 g,11.99,11.99
+2026-11-24 15:16,cobasi,7898682046170,Ração Úmida Joy Patê para Gatos Carne 280 g,11.99,11.99
+2026-11-24 15:16,cobasi,7898615852533,Brinquedo Interativo para Gatos Lagartixas Pet Games 4 unidades,23.99,29.99
+2026-11-24 15:16,cobasi,7898615851741,Brinquedo Dispenser para Ração Cat Ball Pet Games Único,29.99,34.99
+2026-11-24 15:16,cobasi,7898195861833,Organnact Indoor Cat Snacks 40 g,24.9,24.9
+2026-11-24 15:16,cobasi,7898195861840,Organnact Pelefood Cat Snacks 40 g,24.9,24.9
+2026-11-24 15:16,cobasi,7898195866906,Cat Snacks Castrados Organnact 40 g,21.9,21.9
+2026-11-24 15:16,cobasi,7898195861864,Organnact Fitodent Cat Snacks 40 g,24.9,24.9
+2026-11-24 15:16,cobasi,7898195861796,Organnact Ball Feline Cat Snacks 40 g,24.9,24.9
+2026-11-24 15:16,cobasi,7898615852588,Brinquedo Interativo Labirinto Verde Pet Games P,47.99,59.99
+2026-11-24 15:16,cobasi,7898615852595,Brinquedo Interativo Labirinto Verde Pet Games M,75.99,94.99
+2026-11-24 15:16,cobasi,7898701095998,Petisco Just Tiras de Salmão para Gatos 55 g,25.5,25.5
+2026-11-24 15:16,cobasi,7896029048078,Petisco Dreamies Mix Carne e Frango Irresistível Gatos Adultos 80 g,13.99,13.99
+2026-11-24 15:16,cobasi,7896029048085,Petisco Dreamies Mix Carne e Frango Irresistível Gatos Adultos 150 g,20.99,20.99
+2026-11-24 15:16,cobasi,7898682047320,Petisco Origem Creamy Treats Frango para Gatos 56 g,10.5,10.5
+2026-11-24 15:16,cobasi,7898682047337,Petisco Origem Creamy Treats Camarão e Atum para Gatos 56 g,10.5,10.5
+2026-11-24 15:16,cobasi,7898682047351,Petisco Origem Creamy Treats Atum e Frango para Gatos 56 g,14.9,14.9
+2026-11-24 15:16,cobasi,7898724630701,Petisco Buona Petix Creamy Treats para Gatos Atum e Salmão 56 g,17.9,17.9
+2026-11-24 15:16,cobasi,7898724630718,Petisco Buona Petix Creamy Treats para Gatos Frango 56 g,17.9,17.9
+2026-11-24 15:16,cobasi,7898724630695,Petisco Buona Petix Creamy Treats para Gatos Atum 56 g,17.9,17.9
+2026-11-24 15:16,cobasi,7898724630688,Petisco Buona Petix Creamy Treats para Gatos Salmão 56 g,17.9,17.9
+2026-11-24 15:16,cobasi,7898682047344,Petisco Origem Creamy Treats Salmão e Atum para Gatos 56 g,10.5,10.5
+2026-11-24 15:16,cobasi,7896273809647,Petisco Kelcat para Gatos Lambe Cat Leite 80 g,7.99,7.99
+2026-11-24 15:16,cobasi,7896273809630,Petisco Kelcat para Gatos Lambe Cat Salmão 30 g,6.99,6.99
+2026-11-24 15:16,cobasi,7896273809609,Petisco Kelcat para Gatos Lambe Cat Frango 30 g,6.99,6.99
+2026-11-24 15:16,cobasi,7896273809616,Petisco Kelcat para Gatos Lambe Cat Camarão 30 g,6.99,6.99
+2026-11-24 15:16,cobasi,7896273809623,Petisco Kelcat para Gatos Lambe Cat Atum 30 g,6.99,6.99
+2026-11-24 15:16,cobasi,40141895172,Colher para Petisco Cremoso para Gatos Fuzz Cinza Único,19.99,19.99
+2026-11-24 15:16,cobasi,7898195861857,Organnact Calmyn Cat Snacks 40 g,24.9,24.9
+2026-11-24 15:16,vivaverde,7898960782349,Grãos Finos 4kg Viva!Verde Areia Higiênica Grãos Finos,69.9,69.9
+2026-11-24 15:16,vivaverde,7898960782356,Grãos Mistos 4kg Viva!Verde Areia Higiênica Grãos Mistos,69.9,69.9
+2026-11-24 15:16,vivaverde,7898960782448,Grãos Grossos 4kg Viva!Verde Areia Higiênica Grãos Grossos,69.9,69.9
+2026-11-24 15:16,vivaverde,7898960782479,Viva!Verde Areia Higiênica Grãos Grossos 10kg,169.9,169.9
+2026-11-24 15:16,vivaverde,7898960782462,Viva!Verde Areia Higiênica Grãos Mistos 10kg,169.9,169.9
+2026-11-24 15:16,vivaverde,7898960782455,Viva!Verde Areia Higiênica Grãos Finos 10kg,169.9,169.9
+2026-11-24 15:16,catbio,,Areia Higienica Biodegradável para Gatos - Catbio Tofu - 2kg - Sem Poeira Boa Absorcao Forma torrão Vegetal Natural,42.9,0.0
+2026-11-24 15:16,catbio,,Areia Higienica Biodegradável para Gatos - Catbio Tofu - 2kg - Sem Poeira Boa Absorcao Forma torrão Vegetal Lavanda,42.9,0.0
+2026-11-24 15:16,catbio,,Areia Higienica Biodegradável para Gatos - Catbio Tofu - 2kg - Sem Poeira Boa Absorcao Forma torrão Vegetal Carvão Ativado,42.9,0.0
+2026-11-24 15:16,catbio,,Areia Higiênica Biodegradável - Catbio Milho & Mandioca - Ultra Clean (Grãos Mistos) - 4 kg 4 KG / Grãos Mistos,59.9,49.9
+2026-11-24 15:16,catbio,,Areia Higiênica Biodegradável - Catbio 100% Mandioca - Grãos médios - 4 kg Grãos Médios / 4 KG,59.9,59.9
+2026-11-24 15:16,catbio,,Areia Higiênica Biodegradável - Catbio Milho & Mandioca - Super Clean (Grãos Médios) - 4 kg,59.9,69.9
+2026-11-24 15:16,catbio,,Areia Higiênica Biodegradável - Catbio Milho & Mandioca - Max Clean (Grãos finos) - 4 kg,59.9,69.9
